@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+/* import font จากgoogle font*/
+* {
+    font-family: 'Kanit', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    background: url(../img/unknown.png) no-repeat center;
+    
+}
+#heading1 {
+    font-family: 'Aladin', 'kanit', cursive;
+    
+    font-size: 3vh;
+}
+.icon {
+    width: auto;
+    height: 5vh;
+    cursor: pointer;
+    transition: .5s;
+}
+.icon:hover {
+    opacity: 0.5;
+}
+
+nav ul li a,nav a {
+    font-family: 'Boogaloo', cursive;
+    font-size: 2vh;
+}
+h2 {
+    font-size: 2.5vh;
+}
+p {
+    font-size: 1.5vh;
+}
+
+#pre-foot {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 10vh;
+    background: url('../img/wander-more.png') center center fixed no-repeat;
+    background-size: cover;
+    /*
+    กำหนัดรูปพื้นหลังและตำแหน่งเป็นcenter ไม่แสดงภาพส้ำ และfixed positionเพื่อให้ภาพไม่เลื่อน
+    ตามwebsite
+    */
+}
+a h5,p {
+    color: black;
+}
+.card {
+    transition: .5s;
+}
+.card:hover {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+}
+footer a p {
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+footer {
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+}
+#fb-id {
+    color: blue;
+}
+#yt-id {
+    color: red;
+}
+#fb-id {
+    color: blue;
+}
+/*  จากcode cssที่ใช้มาทั้งหมดก็จะเห็นได้ว่า
+    ส่วนใหญ่จะเป็นvhเนื่องจากเราต้องการให้websiteทำงานแบบ
+    responsiveได้ดีและบางส่วนใช้หน่วย%เนื่องจากต้องการให้responsiveเช่นกัน
+*/
+.qoute-text {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(213,201,186,1) 100%);
+}
