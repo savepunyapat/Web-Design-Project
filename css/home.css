@@ -16,7 +16,8 @@ nav {
     background: linear-gradient(121deg, rgba(1,36,78,1) 31%, rgba(61,78,126,1) 100%);
 }
 #logo {
-    width: 200px;
+    width: 170px;
+    margin-left: 50px;
 }
 ul li::after {
     content: "";
@@ -37,14 +38,14 @@ ul li ul li:hover:after {
 .nav-link {
     font-size: 2.5vh;
 }
-.bg-active{
+/*.bg-active{
     background-color:white;
     border-radius: 25px;
     color: blue;
 }
 .bg-active a {
     color: blue;
-}
+}*/
 .box {
     position: relative;
     justify-content: center;
@@ -58,7 +59,7 @@ ul li ul li:hover:after {
     left: 0px;
     right: 0px;
     top: 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url('../logo-old/rear-view-programmer-working-all-night-long.jpg');
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url('../logo-old/rear-view-programmer-working-all-night-long.jpg');*/
     background-size: cover;
     background-position:top;
     display: block;
@@ -86,13 +87,26 @@ ul li ul li:hover:after {
     margin: 0;
     text-align: center;
 }
+.card-img-top{
+    object-fit:cover; /* Do not scale the image */
+    object-position:center; /* Center the image within the element */
+    width: 100%;
+    height: 50vh;
+}
+
+
+
 @media only screen and (max-width: 600px) {
+    #logo{
+        width: 200;
+      
+    }
     #qoute {
         margin-top: 10px;
     }
     nav {
-        background: rgb(204,85,85);
-        background: linear-gradient(90deg, rgba(204,85,85,1) 42%, rgba(224,129,129,1) 88%);
+        background: rgb(1,36,78);
+        background: linear-gradient(121deg, rgba(1,36,78,1) 31%, rgba(61,78,126,1) 100%);
     }
     .box::after {
         content: "";
@@ -109,4 +123,9 @@ ul li ul li:hover:after {
         height: 532px;
         z-index: -1;
     }
+    iframe{
+        width: 100%;
+        height: 50vh;
+    }
+  
 }
