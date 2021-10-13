@@ -95,6 +95,9 @@ ul li ul li:hover:after {
     margin: 0;
     text-align: center;
 }
+.carousel-inner > .carousel-item {
+    height: 500px;
+ }
 .card-img-top{
     object-fit:cover; /* Do not scale the image */
     object-position:center; /* Center the image within the element */
