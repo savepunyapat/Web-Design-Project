@@ -9,8 +9,6 @@ nav {
     background: rgb(1,36,78);
     background: linear-gradient(121deg, rgba(1,36,78,1) 31%, rgba(61,78,126,1) 100%);
 }
-.container {
-}
 .card {
     
     transition: .5s;
