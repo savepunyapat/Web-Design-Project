@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 * {
     font-family: 'Prompt', sans-serif;
     padding: 0;
@@ -18,6 +21,14 @@ nav {
 #logo {
     width: 170px;
     margin-left: 50px;
+    transition: all 0.5s ease-in-out;
+}
+#logo:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+#title{
+    text-shadow: 2px 2px 5px black;
 }
 ul li::after {
     content: "";
@@ -59,21 +70,21 @@ ul li ul li:hover:after {
     left: 0px;
     right: 0px;
     top: 0px;
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url('../logo-old/rear-view-programmer-working-all-night-long.jpg');*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url('https://www.img.in.th/images/9c4bc4473527677f342f39e992c7bd58.jpg');
     background-size: cover;
     background-position:top;
-    display: block;
+  /*  display: block;*/
     
     width: 100%;
     height: 866px;
     z-index: -1;
 }
 #qoute {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
     letter-spacing: 5px;
     margin: 30%;
-    font-size: 7vh;
-    border-bottom: 5px solid white;
+    font-size: 10vh;
+   
     font-weight:bolder;
 }
 #midbox {
@@ -82,7 +93,10 @@ ul li ul li:hover:after {
 #midbox img {
     width: 100%;
     height: 35vh;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    transition: all 0.5s ease-in-out;
 }
+
 #midbox p {
     margin: 0;
     text-align: center;
@@ -93,7 +107,19 @@ ul li ul li:hover:after {
     width: 100%;
     height: 50vh;
 }
-
+.card a{
+    transition: all 0.5s ease ;
+}
+.card a:hover{
+    opacity: 0.7;
+}
+#news {
+    font-family: 'Sarabun', sans-serif;
+}
+footer{
+    background: rgb(1,17,37);
+    background: linear-gradient(121deg, rgba(1,17,37,1) 31%, rgba(32,41,66,1) 100%);
+}
 
 
 @media only screen and (max-width: 600px) {
