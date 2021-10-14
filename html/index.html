@@ -117,78 +117,59 @@
       
     </div>
     <!--News-->
-    <div class="container newsbox">
       <h2 class="text-center mt-5 " id="news line">ยกระดับทรัพยากรมนุษย์ด้านเทคโนโลยีดิจิทัลเข้าสู่อุตสาหกรรมใหม่ (New S-Curve) เน้นตามความต้องการของผู้ใช้บัณฑิต</h2>
-      
-      <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        </div>
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide p-1 shadow-lg " data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <a href="">
-              <img src="https://www.cs.kku.ac.th/images/news/2564/24_sumonta/ss.jpg" class="d-block w-100" alt="...">
-            </a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>ผศ. ดร.สุมณฑา เกษมวิลาศ ได้รับเชิญจากโรงพยาบาลพระศรีมหาโพธิ์ เป็นวิทยากรในงานประชุมเชิงปฏิบัติการเพื่อพัฒนาต้นแบบแอปพลิเคชันการบำบัดด้วยการกระตุ้นพฤติกรรมสำหรับผู้มีภาวะซึมเศร้า ครั้งที่ 2</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
+            <img class="d-block w-100 img-fluid" src="../img/banner/kkuoldbanner.jpg" alt="First slide">
           </div>
           <div class="carousel-item">
-            <a href="">
-              <img src="https://www.cs.kku.ac.th/images/news/2564/23_sumonta/1.jpg" class="d-block w-100" alt="...">
-            </a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>ผศ.ดร.สุมณฑา เกษมวิลาศ ได้รับเชิญจากโรงพยาบาลพระศรีมหาโพธิ์ จ.อุบลราชธานี เป็นวิทยากรบรรยายในหัวข้อ “สุขภาพวิถีใหม่ในยุคดิจิทัล”</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
+            <img class="d-block w-100 img-fluid" src="https://www.cs.kku.ac.th/images/news/2564/24_sumonta/ss.jpg" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <a href="">
-              <img src="https://www.cs.kku.ac.th/images/news/2563/30_toi2020_close/128124722_225454905641534_5488970032101915505_o.jpg" class="d-block w-100" alt="...">
-            </a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>พิธีปิดการแข่งขันคอมพิวเตอร์โอลิมปิกระดับชาติ ครั้งที่ 16 และผลการแข่งขัน</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <a href="">
-              <img src="https://www.cs.kku.ac.th/images/news/2564/06_top10/top10-2.jpg" class="d-block w-100" alt="...">
-            </a>
-            <div class="carousel-caption d-none d-md-block">
-              <h5>CSs@KKU ติด TOP10 สถาบันการศึกษาของรัฐด้านไอทีและเทคโนโลยีสารสนเทศ</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
+            <img class="d-block w-100 img-fluid" src="https://www.cs.kku.ac.th/images/news/2564/24_sumonta/ss.jpg" alt="Second slide">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <span class="sr-only">Next</span>
+        </a>
+        <!-- 
+          carouselเป็นสร้างมาจาก3D transforms และjavascript
+          กำหนด.carouselเพื่อใช้งาน data-ride="carousel" ใช้สำหรับกำหนดanimatingของcarousel
+          .active เพื่อให้carouselนั้นทำงานเป็นrequiredmentของbootstrap
+          carousel-control-prev และ carousel-control-prev เป็นปุ่มควบคุมslide
+          id="carouselExampleIndicators จะนำไปเรียกในjavascript
+         -->
       </div>
-    </div>
+    </div>  
+      
     <div class="container"></div>
     <!--Footer-->
     <div class="container">
-      <div class="row text-center row align-items-center">
-        <div class="col">
-          <img src="../logo-old/logo_pmg.png" alt="">
+
+        <div class="row text-center align-items-center">
+          <div class="col-lg">
+            <img src="../img/banner/Grid/cs-grid.png" class="img-fluid fac-banner " alt="">
+          </div>
+          <div class="col-lg">
+            <img src="../img/banner/Grid/it-grid.png" class="img-fluid fac-banner" alt="">
+          </div>
+          <div class="col-lg">
+            <img src="../img/banner/Grid/gis-grid.png" class="img-fluid fac-banner" alt="">
+          </div>
         </div>
-        <div class="col">
-          <img src="../logo-old/logo_pmg.png" alt="">
-        </div>
-        <div class="col">
-          <img src="../logo-old/logo_pmg.png" alt="">
-        </div>
-      </div>
+  
     </div>
     <footer class="text-center text-lg-start bg-dark text-white">
       <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">

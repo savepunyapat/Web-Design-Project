@@ -24,6 +24,9 @@ nav {
     transform: scale(1.2);
     opacity: 0.7;
 }
+.fac-banner {
+    width: 75%;
+}
 #title{
     text-shadow: 2px 2px 5px black;
 }
@@ -95,9 +98,6 @@ ul li ul li:hover:after {
     margin: 0;
     text-align: center;
 }
-.carousel-inner > .carousel-item {
-    height: 500px;
- }
 .card-img-top{
     object-fit:cover; /* Do not scale the image */
     object-position:center; /* Center the image within the element */
@@ -120,7 +120,4 @@ footer{
 
 .newsbox {
     margin-top: 2.5vh;
-}
-.carousel-caption {
-    background-color: rgba(0, 0, 0, 0.7) ;
 }
