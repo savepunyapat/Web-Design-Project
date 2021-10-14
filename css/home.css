@@ -31,7 +31,7 @@ ul li::after {
     content: "";
     height: 3px;
     width: 0%;
-    background: #0077b6;
+    background: #ff7900;
     position: absolute;
     left: 0;
     bottom: -10px;
