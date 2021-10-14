@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/staff.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
+    <title>C-square</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css1/bootstrap.min.css">
+    <title>Document</title>
+  </head>
+
+  <body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light
+      bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img
+            src="../logo-old/logo_pmg.png" alt=""
+            id="logo"></a>
+        <button class="navbar-toggler btn-light" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle
+          navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px;">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#"
+                id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                เกี่ยวกับ
+              </a>
+              <ul class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#"
+                id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                หลักสูตร/รับเข้าศึกษา
+              </a>
+              <ul class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#"
+                id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                วิจัยและนวัตกรรม
+              </a>
+              <ul class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#"
+                id="navbarScrollingDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                ติดต่อ
+              </a>
+              <ul class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Search</option>
+              <option value="1"><a
+                  href="https://getbootstrap.com/docs/5.0/components/navbar/">One</a></option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container mt-3">
+      <div class="card-deck" id="contact">
+
+        <div class="card">
+          <a href="#popup_it_1" class="text-decoration-none">
+            <img class="card-img-top"
+              src=" "
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card-text" class="card-title text-black">
+                รศ.ดร.งามนิจ อาจอินทร์</h5>
+              <p id="card-text" class="card-text">Ngamnij Arch-int, Ph.D.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#popup_it_2" class="text-decoration-none">
+            <img class="card-img-top"
+              src=" "
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card-text" class="card-title">
+                รศ.ดร.จักรชัย โสอินทร์ </h5>
+              <p id="card-text" class="card-text">	
+                Chakchai So-In, Ph.D. </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#popup_it_3" class="text-decoration-none">
+            <img class="card-img-top"
+              src=" "
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card-text" class="card-title">รศ.ดร.สมจิตร อาจอินทร์
+              </h5>
+              <p id="card-text" class="card-text">Somjit Arch-int, Ph.D.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>
+        </div>
+
+        <!--
+              card-deckต่างจากcard-groupหรือตัวอื่นๆเนื่องจากเพราะ cardแต่ละใบในcard-deck
+              จะไม่ติดกัน
+              .card-bodyเป็นการกำหนดกล่องเพื่อแสดงสิ่งต่างๆของcard
+              .card-img-topกำหนดไว้เพื่อให้ใช้วางรูปบนcardใบนั้นๆ
+              .card-textเป็นเหมือนกล่องข้อความไว้ในcard bodyเพื่อแสดงข้อความ
+              .card-footerเป็นช่องfooterของcard
+              .text-mutedก็จะเป็นเหมือนการกำหนดสีของtextไปในตัวเลย
+            -->
+      </div>
+      <div class="card-deck mt-3" id="contact">
+
+        <div class="card">
+          <a href="#popup_it_4" class="text-decoration-none">
+            <img class="card-img-top"
+              src=" "
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card-text" class="card-title text-black">
+                	ผศ.ดร.วรารัตน์ สงฆ์แป้น</h5>
+              <p id="card-text" class="card-text">Wararat Songpan, Ph.D.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#popup_it_5" class="text-decoration-none">
+            <img class="card-img-top"
+              src=" "
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card-text" class="card-title">
+                ผศ.สันติ ทินตะนัย </h5>
+              <p id="card-text" class="card-text">Mr.Sunti Tintanai</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#popup_it_6" class="text-decoration-none">
+            <img class="card-img-top"
+              src=" "
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card-text" class="card-title">ผศ.ดร.ปวีณา วันชัย</h5>
+              <p id="card-text" class="card-text">
+                	Paweena Wanchai, Ph.D.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card-deck mt-3" id="contact">
+
+        <div class="card">
+          <a href="#popup_it_7" class="text-decoration-none">
+            <img class="card-img-top"
+              src=" "
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card-text" class="card-title text-black">
+                	ผศ.ดร.มัลลิกา วัฒนะ</h5>
+              <p id="card-text" class="card-text">
+                Monlica Wattana, Ph.D.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#popup_cs_8" class="text-decoration-none">
+            <img class="card-img-top"
+              src=" "
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card-text" class="card-title">
+                ผศ.ดร.สายยัญ สายยศ</h5>
+              <p id="card-text" class="card-text">Saiyan Saiyod, Ph.D.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="#popup_cs_9" class="text-decoration-none">
+            <img class="card-img-top"
+              src=" "
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card-text" class="card-title">
+                ผศ.ดร. สุมณฑา  เกษมวิลาศ</h5>
+              <p id="card-text" class="card-text">
+
+                Sumonta Kasemvilas, Ph.D.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="card-deck mt-3" id="contact">
+
+        <div class="card">
+          <a href="#popup_cs_10" class="text-decoration-none">
+            <img class="card-img-top"
+              src=" "
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 id="card-text" class="card-title text-black">
+                อ.ดร.เพชร อิ่มทองคำ</h5>
+              <p id="card-text" class="card-text">Phet Imtongkhum, Ph.D.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>
+        </div>
+        
+      </div>
+      <div class="overlay" id="popup_it_1">
+        <div class="popup">
+          <a class="close" href="#">&times;</a>
+          <div class="content text-center">
+            <img class="img-fluid mb-2"
+              src="https://www.cs.kku.ac.th/images/Web/person/exp2/Sartra.jpg"
+              alt="">
+            <p>รศ.ดร.ศาสตรา วงศ์ธนวสุ <br><br>
+  
+              ตำแหน่ง: รองศาสตราจารย์ <br><br>
+  
+              Email : <a href="mailto:wongsar@kku.ac.th">wongsar@kku.ac.th </a>
+              <br><br>
+  
+              ความเชี่ยวชาญและงานวิจัย: <br>
+  
+              -Machine Learning <br>
+  
+              -Big Data Analytics <br>
+  
+              -Computer Vision <br>
+  
+              -Cellular Automata <br>
+  
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="overlay" id="popup_cs_2">
+        <div class="popup">
+          <a class="close" href="#">&times;</a>
+          <div class="content text-center">
+            <img class="img-fluid mb-2"
+              src="https://www.cs.kku.ac.th/images/Web/person/exp2/Sirapat.jpg"
+              alt="">
+            <p>รศ.ดร.สิรภัทร เชี่ยวชาญวัฒนา <br><br>
+  
+              ตำแหน่ง: รองศาสตราจารย์ <br><br>
+  
+              Email : <a href="mailto:sunkra@kku.ac.th">wongsar@kku.ac.th </a> ,
+              <a href="mailto:csirapat@gmail.com">csirapat@gmail.com</a>
+              <br><br>
+  
+              <a target="_blank" id="card-text" class="text-decoration-underline
+                text-primary"
+                href="https://scholar.google.com/citations?user=TkbVWiMAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a><br>
+              -Computational Intelligence <br>
+  
+              -Machine Learning and Intelligent Systems <br>
+  
+              -Nature-Inspired Optimization Algorithm <br>
+  
+              -Data science and Artificial Intelligence <br>
+  
+              -Artificial Neural Network <br>
+  
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="overlay" id="popup_cs_3">
+        <div class="popup">
+          <a class="close" href="#">&times;</a>
+          <div class="content text-center">
+            <img class="img-fluid mb-2"
+              src="https://www.cs.kku.ac.th/images/Web/person/exp2/Pusadee.jpg"
+              alt="">
+            <p>ผศ.ดร.พุธษดี ศิริแสงตระกูล <br><br>
+  
+              ตำแหน่ง: ผู้ช่วยศาสตราจารย์ <br><br>
+  
+              Email : <a href="mailto:pusadee@kku.ac.th">pusadee@kku.ac.th</a>
+              <br><br>
+  
+              ความเชี่ยวชาญและงานวิจัย:<br>
+  
+              -Natural Language and Speech Processing <br>
+  
+              -Machine Learning and Intelligent Systems <br>
+  
+              -Database and Information Integration Systems <br>
+  
+              -Data science and Artificial Intelligence <br>
+  
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="overlay" id="popup_cs_4">
+        <div class="popup">
+          <a class="close" href="#">&times;</a>
+          <div class="content text-center">
+            <img class="img-fluid mb-2"
+              src="https://www.cs.kku.ac.th/images/Web/person/exp2/Punyapol.jpg"
+              alt="">
+            <p>รศ.ดร.ปัญญาพล หอระตะ <br><br>
+  
+              ตำแหน่ง: รองศาสตราจารย์ <br><br>
+  
+              Email : <a href="mailto:punhor1@kku.ac.th">punhor1@kku.ac.th </a>
+              <br><br>
+  
+              ความเชี่ยวชาญและงานวิจัย: <br>
+  
+              - Machine Learning <br>
+  
+              - Soft computing <br>
+  
+              - Object-Oriented Programming Languages <br>
+  
+              - Software Engineering <br>
+  
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="overlay" id="popup_cs_5">
+        <div class="popup">
+          <a class="close" href="#">&times;</a>
+          <div class="content text-center">
+            <img class="img-fluid mb-2"
+              src="https://www.cs.kku.ac.th/images/Web/person/exp2/Punyapol.jpg"
+              alt="">
+            <p>ผศ.สันติ ทินตะนัย<br><br>
+  
+              ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
+  
+              Email : <a href="mailto:sunti@kku.ac.th">sunti@kku.ac.th </a>
+              <br><br>
+  
+  
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="overlay" id="popup_cs_6">
+        <div class="popup">
+          <a class="close" href="#">&times;</a>
+          <div class="content text-center">
+            <img class="img-fluid mb-2"
+              src="https://www.cs.kku.ac.th/images/Web/person/exp2/Pusadee.jpg"
+              alt="">
+            <p>ผศ.ดร.คำรณ สุนัติ<br><br>
+  
+              ตำแหน่ง: ผู้ช่วยศาสตราจารย์ <br><br>
+  
+              Email : <a href="mailto:skhamron@kku.ac.th"> skhamron@kku.ac.th</a>
+              , <a href="mailto:khamron_sunat@yahoo.com">khamron_sunat@yahoo.com</a>
+              <br><br>
+  
+              <a target="_blank" id="card-text" class="text-decoration-underline
+                text-primary"
+                href="https://scholar.google.co.th/citations?user=eMdpRLEAAAAJ&hl=en">
+                ความเชี่ยวชาญและงานวิจัย:</a><br>
+  
+              -Computational Intelligence <br>
+  
+              -Machine Learning and Intelligent Systems <br>
+  
+              -Nature-Inspired Optimization Algorithm <br>
+  
+              -Data science and Artificial Intelligence <br>
+  
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="overlay" id="popup_cs_7">
+        <div class="popup">
+          <a class="close" href="#">&times;</a>
+          <div class="content text-center">
+            <img class="img-fluid mb-2"
+              src="https://www.cs.kku.ac.th/images/Web/person/exp2/Punyapol.jpg"
+              alt="">
+            <p>ผศ.ดร.อุรฉัตร โคแก้ว<br><br>
+  
+              ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
+  
+              Email : <a href="mailto:urachart@kku.ac.th">urachart@kku.ac.th</a>
+              <br><br>
+              <a target="_blank" id="card-text" class="text-decoration-underline
+                text-primary"
+                href="https://scholar.google.co.th/citations?user=1RIrvgkAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a><br>
+              - Ubiquitous Learning, Blended Learning <br>
+  
+              - Bioinformatics <br>
+  
+              - User Experience Design <br>
+  
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="overlay" id="popup_cs_8">
+        <div class="popup">
+          <a class="close" href="#">&times;</a>
+          <div class="content text-center">
+            <img class="img-fluid mb-2"
+              src="https://www.cs.kku.ac.th/images/Web/person/exp2/Punyapol.jpg"
+              alt="">
+            <p>ผศ.ดร.สิลดา อินทรโสธรฉันท์ <br><br>
+  
+              ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
+  
+              Email : <a href="mailto:silain@kku.ac.th">silain@kku.ac.th</a>
+              <br><br>
+              ความเชี่ยวชาญและงานวิจัย:<br>
+              -Mobile Computing <br>
+  
+              -Cloud computing <br>
+  
+              -Internet of Things and Smart Technology <br>
+  
+              -Wireless Sensor Networks <br>
+  
+              -Wireless and Cellular Networks <br>
+  
+              -Computer and Network Security <br>
+  
+              -Network, Protocol, Optimization, and Intelligent Systems <br>
+  
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="overlay" id="popup_cs_9">
+        <div class="popup">
+          <a class="close" href="#">&times;</a>
+          <div class="content text-center">
+            <img class="img-fluid mb-2"
+              src="https://www.cs.kku.ac.th/images/Web/person/exp2/Punyapol.jpg"
+              alt="">
+            <p>ผศ.บุญทรัพย์ ไวคำ <br><br>
+  
+              ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
+  
+              Email : <a href="mailto:boonsup@kku.ac.th">boonsup@kku.ac.th</a>
+              <br><br>
+              ความเชี่ยวชาญและงานวิจัย:<br>
+              - Routing Protocols and Internetworking <br>
+  
+              - Mobile Ad Hoc Networks <br>
+  
+              - Internet of Things and Smart Technologies <br>
+  
+              - Evolutionary Algorithms <br>
+  
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="overlay" id="popup_cs_10">
+        <div class="popup">
+          <a class="close" href="#">&times;</a>
+          <div class="content text-center">
+            <img class="img-fluid mb-2"
+              src="https://www.cs.kku.ac.th/images/Web/person/exp2/Punyapol.jpg"
+              alt="">
+            <p>ผศ.ดร. ชิตสุธา สุ่มเล็ก<br><br>
+  
+              ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
+  
+              Email : <a href="mailto:chitsutha@kku.ac.th">chitsutha@kku.ac.th</a>
+              <br><br>
+              <a target="_blank" id="card-text" class="text-decoration-underline
+                text-primary"
+                href="https://scholar.google.co.th/citations?user=ghQ1lTAAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a>
+              <br>
+              -Software Engineering <br>
+  
+              -Software Process <br>
+  
+              -Code Smells and Software Quality <br>
+  
+              -Secure Software Engineering <br>
+  
+              -Computer Network Security <br>
+  
+              -Mobile Agent and Multi-Agent Systems <br>
+  
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
