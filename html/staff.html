@@ -112,12 +112,11 @@
         </div>
       </div>
     </nav>
-    <div class="container mt-3 ">
-        <div class="card-deck  " id="contact">
-                  
-            <div class="card">
+    <div class="container-lg mt-3 staff-box">
+        <div class="card-deck row row row-cols-1 row-cols-md-3 " id="contact">
+            <div class="card col mb-1">
               <a  href="#popup_cs_1" class="text-decoration-none">
-                <img class="card-img-top" src="https://www.cs.kku.ac.th/images/Web/person/exp2/Sartra.jpg" alt="Card image cap">
+                <img class="card-img-top img-fluid" src="https://www.cs.kku.ac.th/images/Web/person/exp2/Sartra.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 id="card-text" class="card-title text-black">	
                     รศ.ดร.ศาสตรา วงศ์ธนวสุ</h5>
@@ -128,9 +127,9 @@
                 </div>
               </a>   
             </div>
-            <div class="card">
+            <div class="card col mb-2">
               <a  href="#popup_cs_2" class="text-decoration-none">
-                <img class="card-img-top" src="https://www.cs.kku.ac.th/images/Web/person/exp2/Sirapat.jpg" alt="Card image cap">
+                <img class="card-img-top img-fluid" src="https://www.cs.kku.ac.th/images/Web/person/exp2/Sirapat.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 id="card-text" class="card-title">	
                     รศ.ดร.สิรภัทร เชี่ยวชาญวัฒนา </h5>
@@ -141,9 +140,9 @@
                 </div>
               </a>  
             </div>
-            <div class="card">
+            <div class="card col mb-1">
               <a  href="#popup_cs_3" class="text-decoration-none">
-                <img class="card-img-top" src="https://www.cs.kku.ac.th/images/Web/person/exp2/Pusadee.jpg" alt="Card image cap">
+                <img class="card-img-top img-fluid" src="https://www.cs.kku.ac.th/images/Web/person/exp2/Pusadee.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h5 id="card-text" class="card-title">ผศ.ดร.พุธษดี ศิริแสงตระกูล </h5>
                   <p id="card-text" class="card-text">Pusadee Seresangtakul, Ph.D.</p>
@@ -153,18 +152,8 @@
                 </div>
               </a>  
             </div>
-            <div class="card">
-              <a  href="#popup_cs_3" class="text-decoration-none">
-                <img class="card-img-top" src="https://www.cs.kku.ac.th/images/Web/person/exp2/Pusadee.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 id="card-text" class="card-title">ผศ.ดร.พุธษดี ศิริแสงตระกูล </h5>
-                  <p id="card-text" class="card-text">Pusadee Seresangtakul, Ph.D.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-                </div>
-              </a>  
-            </div>
+            
+            
             
             
             <!--
@@ -177,6 +166,58 @@
               .text-mutedก็จะเป็นเหมือนการกำหนดสีของtextไปในตัวเลย
             -->
             </div>
+    </div>
+    <div class="container">
+      <div class="card-deck mt-5" id="contact">
+                  
+        <div class="card">
+          <a target="_blank" href="https://www.facebook.com/katewandermore/" class="text-decoration-none">
+            <img class="card-img-top" src="../logo-old/aj-satra.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 id="fb-id" class="card-title">Facebook <i class="fa fa-facebook"></i></h5>
+              <p class="card-text">You can follow her on Facebook here.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>   
+        </div>
+        <div class="card">
+          <a target="_blank" href="https://www.instagram.com/wandermore1984/" class="text-decoration-none">
+            <img class="card-img-top" src="../img/wander-more-banner.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 id="ig-id" class="card-title">Instagram <i class="fa fa-instagram"></i></h5>
+              <p class="card-text">You can follow her on instagram here.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>  
+        </div>
+        <div class="card">
+          <a target="_blank" href="https://www.youtube.com/channel/UCg1osBd51nmLKnPvmeG-JSQ" class="text-decoration-none">
+            <img class="card-img-top" src="../img/wander-more-banner-right.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 id="yt-id" class="card-title">Youtube <i class="fa fa-youtube"></i></i></h5>
+              <p class="card-text">You can follow her on Youtube here.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+            </div>
+          </a>  
+        </div>
+        
+        <!--
+          card-deckต่างจากcard-groupหรือตัวอื่นๆเนื่องจากเพราะ cardแต่ละใบในcard-deck
+          จะไม่ติดกัน
+          .card-bodyเป็นการกำหนดกล่องเพื่อแสดงสิ่งต่างๆของcard
+          .card-img-topกำหนดไว้เพื่อให้ใช้วางรูปบนcardใบนั้นๆ
+          .card-textเป็นเหมือนกล่องข้อความไว้ในcard bodyเพื่อแสดงข้อความ
+          .card-footerเป็นช่องfooterของcard
+          .text-mutedก็จะเป็นเหมือนการกำหนดสีของtextไปในตัวเลย
+        -->
+        </div>
+        
     </div>
     <!-- Popup --->
     <div class="overlay" id="popup_cs_1">
