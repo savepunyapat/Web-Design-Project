@@ -36,6 +36,9 @@ ul li ul li:hover:after {
     width: 0%;
 }
 
+
+
+
 .card {
     transition: .5s;
 }
@@ -134,7 +137,7 @@ footer{
     overflow: auto;
   }
 
-  @media screen and (max-width: 900px){
+  @media screen and (max-width: 700px){
     .box{
       width: 70%;
     }
@@ -142,4 +145,5 @@ footer{
       width: 70%;
     }
   }
+
   
