@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous">
+        <title>C-square</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../css1/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/navbar.css">
+    </head>
+    <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/navbar.js"></script>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../logo-old/logo_pmg.png" alt=""
+                id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown" id="myDropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">เกี่ยวกับ</a>
+                    <ul class="dropdown-menu">
+                        <li> <a class="dropdown-item" href="#">ประวัติ</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li> <a class="dropdown-item" href="#">วิสัยทัศน์</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">โครงสร้างองค์กร</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item not-hide" href="#">บุคลากร&raquo; </a>
+                            <ul class="submenu dropdown-menu">
+                                <li><a class="dropdown-item" href="#">ผู้บริหารและกรรมการ</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">คณาจารย์ประจำสาขาวิชา <br>ภูมิสารสนเทศศาสตร์</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">เจ้าหน้าที่</a></li>
+                            </ul>
+                        </li>
+                        <li><hr class="dropdown-divider hide"></li>
+                        <li><a class="dropdown-item hide" href="#">ผู้บริหารและกรรมการ</a></li>
+                        <li><hr class="dropdown-divider hide"></li>
+                        <li><a class="dropdown-item hide" href="#">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
+                        <li><hr class="dropdown-divider hide"></li>
+                        <li><a class="dropdown-item hide" href="#">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
+                        <li><hr class="dropdown-divider hide"></li>
+                        <li><a class="dropdown-item hide" href="#">คณาจารย์ประจำสาขาวิชา <br>ภูมิสารสนเทศศาสตร์</a></li>
+                        <li><hr class="dropdown-divider hide"></li>
+                        <li><a class="dropdown-item hide" href="#">เจ้าหน้าที่</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown" id="myDropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">หลักสูตร/รับเข้าศึกษา</a>
+                    <ul class="dropdown-menu">
+                      <li> <a class="dropdown-item not-hide" href="#"> หลักสูตร &raquo;  </a>
+                        <ul class="submenu dropdown-menu">
+                            <li><a class="dropdown-item" href="#">หลักสูตรระดับปริญญาตรี</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">หลักสูตรระดับปริญญาโท</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">หลักสูตรระดับปริญญาเอก</a></li>
+                          </ul>
+                        </li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item hide" href="#">หลักสูตรระดับปริญญาตรี</a></li>
+                        <li><hr class="dropdown-divider hide"></li>
+                        <li><a class="dropdown-item hide" href="#">หลักสูตรระดับปริญญาโท</a></li>
+                        <li><hr class="dropdown-divider hide"></li>
+                        <li><a class="dropdown-item hide" href="#">หลักสูตรระดับปริญญาเอก</a></li>
+                        <li><hr class="dropdown-divider hide"></li>
+                        <li><a class="dropdown-item" href="#">ทุนการศึกษา</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">ปฏิทินการศึกษา</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">บริการการศึกษา</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown" id="myDropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">วิจัยและนวัตกรรม</a>
+                  <ul class="dropdown-menu">
+                    <li> <a class="dropdown-item" href="#">ศูนย์วิจัยและกลุ่มวิจัย</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li> <a class="dropdown-item" href="#">MOU</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item "><a class="nav-link text-white" href="#">ติดต่อ</a></li>
+              </ul>
+            </div>
+            <!-- navbar-collapse.// -->
+            </div>
+            <!-- container-fluid.// -->
+            </nav>
+    </body>
+</html>
