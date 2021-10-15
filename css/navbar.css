@@ -11,6 +11,7 @@ hr.dropdown-divider {
     list-style: none;
     text-decoration: none;
 }
+
 @media all and (min-width: 992px) {
     .dropdown-menu li {
         position: relative;
@@ -37,6 +38,72 @@ hr.dropdown-divider {
     
     
 }
+/* The overlay effect with black background */
+.olr {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
+  }
+  
+  /* The content */
+  .olr-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+  }
+  
+  /* Close button */
+  .olr .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .olr .closebtn:hover {
+    color: #ccc;
+  }
+  
+  /* Style the search field */
+  .olr input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+  }
+  
+  .olr input[type=text]:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  .olr button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .olr button:hover {
+    background: #bbb;
+  }
+
 
 /* ============ desktop view .end// ============ */
 
@@ -69,3 +136,8 @@ nav {
     margin-left: 50px;
     transition: all 0.5s ease-in-out;
 }
+@media screen and (max-width: 700px){
+    .dropdown-item img{
+        width: 10%!important;
+    }
+  }
