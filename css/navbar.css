@@ -11,6 +11,10 @@ hr.dropdown-divider {
     list-style: none;
     text-decoration: none;
 }
+footer{
+    background: rgb(1,17,37);
+    background: linear-gradient(121deg, rgba(1,17,37,1) 31%, rgba(32,41,66,1) 100%);
+}
 @media all and (min-width: 992px) {
     .dropdown-menu li {
         position: relative;
