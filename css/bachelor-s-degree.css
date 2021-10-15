@@ -1,0 +1,20 @@
+.fac-banner:hover {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.fac-banner {
+    transition: 500ms;
+    width: 80%;
+}
+.detail-box {
+    font-size: 2vh;
+    font-weight: bold;
+}
+footer{
+    background: rgb(1,17,37);
+    background: linear-gradient(121deg, rgba(1,17,37,1) 31%, rgba(32,41,66,1) 100%);
+}
+@media screen and (max-width: 991px){
+    .fac-banner {
+        margin-top: 5vh;
+    }
+}
