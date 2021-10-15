@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200;300&display=swap');
+.container {
+    font-family: 'Sarabun', sans-serif;
+}
+.deg-banner {
+    width: 70%;
+}
+.row {
+    margin: 10px;
+}
+.big-box {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.blockqoute {
+    border-bottom: 1px solid gray;
+}
+.detail-box {
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+footer{
+    background: rgb(1,17,37);
+    background: linear-gradient(121deg, rgba(1,17,37,1) 31%, rgba(32,41,66,1) 100%);
+}

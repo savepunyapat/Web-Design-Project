@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
-* {
+nav {
     font-family: 'Prompt', sans-serif;
     margin: 0;
     padding: 0;
@@ -11,7 +11,14 @@ hr.dropdown-divider {
     list-style: none;
     text-decoration: none;
 }
+<<<<<<< HEAD
 
+=======
+footer{
+    background: rgb(1,17,37);
+    background: linear-gradient(121deg, rgba(1,17,37,1) 31%, rgba(32,41,66,1) 100%);
+}
+>>>>>>> d5364ec3139dcb4de1ee6e3621496aab7add3595
 @media all and (min-width: 992px) {
     .dropdown-menu li {
         position: relative;
