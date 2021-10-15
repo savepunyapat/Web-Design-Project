@@ -13,19 +13,7 @@
     font-size: 2.5vh;
     padding-top: 100px;
 }
-#logo {
-    width: 170px;
-    margin-left: 50px;
-    transition: all 0.5s ease-in-out;
-}
-.active-bar {
-    color: white;
-    background-color: #ff7900;
-}
-nav {
-    background: rgb(1,36,78);
-    background: linear-gradient(121deg, rgba(1,36,78,1) 31%, rgba(61,78,126,1) 100%);
-}
+
 footer{
     background: rgb(1,17,37);
     background: linear-gradient(121deg, rgba(1,17,37,1) 31%, rgba(32,41,66,1) 100%);
