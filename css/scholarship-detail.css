@@ -11,11 +11,11 @@
 body {
     font-family: 'Prompt', sans-serif;
 }
-.container {
+.details-box {
     border-left:1px solid rgba(0, 0, 0, 0.4) ;
     border-right:1px solid rgba(0, 0, 0, 0.4) ;
 }
-.row {
+.sar {
     margin-top: 5vh;
     margin-bottom: 5vh;
     font-family: 'Sarabun', sans-serif;
