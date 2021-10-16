@@ -6,7 +6,12 @@
     margin: 0;
     padding: 0;
 }
-
+p,dt,dd{
+    font-family: 'Sarabun', sans-serif;
+} 
+dd ul li{
+    font-family: 'Sarabun', sans-serif;
+}
 #para-img {
     margin-top: 2rem;
     margin-bottom: 1rem;

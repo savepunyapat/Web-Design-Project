@@ -9,8 +9,9 @@
     margin: 10px;
 }
 .big-box {
-    border-left: 1px solid gray;
+    border-left: 1px solid ;
     border-right: 1px solid gray;
+    
 }
 .blockqoute {
     border-bottom: 1px solid gray;
