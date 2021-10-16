@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
+
+h6{
+    font-family: 'Prompt', sans-serif;
+}
+
+table{
+    font-family: 'Sarabun', sans-serif;
+    
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+td, th{
+    background: rgb(247, 247, 247);
+    text-align: start;
+    padding: 8px;
+    
+    
+}
+td{
+    border-bottom: 0.3px solid rgba(65, 65, 65,0.1) ;
+}
+
+td:last-child{
+    border-left: 0.5px solid rgba(65, 65, 65,0.2) ;
+    font-size: small;
+}
+
+tr#final td{
+    border-bottom: none;
+}
+th{
+    background: rgb(65, 65, 65);
+    color: white;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+th#date{
+    
+    width: 10%;
+}
+.pagination {
+    display: inline-block;
+   
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #4879ff;
+    color: white;
+    border: 1px solid #4879ff;
+  }
+  
+  .pagination a:hover:not(.active) {
+      background-color: #ddd;
+    }
+
+
+ @media screen and (max-width: 700px){
+        a#page_select{
+            display: none;
+        }
+      }
