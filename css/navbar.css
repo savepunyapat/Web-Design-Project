@@ -11,6 +11,7 @@ hr.dropdown-divider {
     list-style: none;
     text-decoration: none;
 }
+
 @media all and (min-width: 992px) {
     .dropdown-menu li {
         position: relative;
