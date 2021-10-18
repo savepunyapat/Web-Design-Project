@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400&display=swap');
+*{
+    font-family: 'Sarabun', sans-serif;
+}
+h6{
+    font-size: 2rem;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+    
+}
+ul#itsys{
+    list-style: none;
+    text-align: start;
+    
+}
+ul#itsys li {
+    display: block;
+    padding-top: 0.2em;
+}
+
+ul li{
+    display: inline;
+    padding-right: 1em;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+ul#formacc{
+    list-style: none;
+    text-align: start;
+}
+ul#formacc li{
+    display: block;
+
+}
+@media screen and (max-width: 700px){
+    ul li{
+        display: block;
+        padding-top: 1em;
+    }
+  }
