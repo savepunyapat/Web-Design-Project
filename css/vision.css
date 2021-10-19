@@ -17,7 +17,7 @@ dd ul li{
     margin-bottom: 1rem;
     width: 100%;
     height: 10vh;
-    background: url('../img/kkuoldbanner.jpg') center center fixed no-repeat;
+    background: url('../img/banner/kkuoldbanner.jpg') center center fixed no-repeat;
     background-size: cover;
     /*
     กำหนัดรูปพื้นหลังและตำแหน่งเป็นcenter ไม่แสดงภาพส้ำ และfixed positionเพื่อให้ภาพไม่เลื่อน
