@@ -6,7 +6,10 @@
     margin: 0;
     padding: 0;
 }
-p,dt,dd{
+h2,p{
+    font-family: 'Sarabun', sans-serif;
+}
+้,dt,dd{
     font-family: 'Sarabun', sans-serif;
 } 
 dd ul li{
