@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 
 <head>
   <meta charset="UTF-8">
@@ -15,6 +15,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css1/bootstrap.min.css">
   <link rel="stylesheet" href="../css/history.css">
+  <link rel="stylesheet" href="../css/navbar.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
   <script src="../js/bootstrap.min.js"></script>
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand img-fluid" href="#"><img src="../logo-old/logo_pmg.png" alt="" id="logo"></a>
+      <a class="navbar-brand img-fluid" href="../html/index.html"><img src="../logo-old/logo_pmg.png" alt="" id="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,7 +35,7 @@
       <div class="collapse navbar-collapse" id="main_nav">
         <ul class="navbar-nav">
           <li class="nav-item "><a class="nav-link text-white" href="../html/index.html">หน้าหลัก</a></li>
-          <li class="nav-item dropdown" id="myDropdown">
+          <li class="nav-item dropdown" id="myDropdown1">
             <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">เกี่ยวกับ</a>
             <ul class="dropdown-menu">
               
@@ -47,6 +48,10 @@
                 <hr class="dropdown-divider">
               </li>
               <li><a class="dropdown-item" href="../html/organize.html">โครงสร้างองค์กร</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="../html/logo.html">ตราสัญลักษณ์</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -68,7 +73,7 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="#">เจ้าหน้าที่</a></li>
+                  <li><a class="dropdown-item" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
                 </ul>
               </li>
               <li>
@@ -90,10 +95,10 @@
               <li>
                 <hr class="dropdown-divider hide">
               </li>
-              <li><a class="dropdown-item hide" href="#">เจ้าหน้าที่</a></li>
+              <li><a class="dropdown-item hide" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown" id="myDropdown">
+          <li class="nav-item dropdown" id="myDropdown2">
             <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">หลักสูตร/รับเข้าศึกษา</a>
             <ul class="dropdown-menu">
               <li> <a class="dropdown-item not-hide" href="#"> หลักสูตร &raquo; </a>
@@ -102,11 +107,11 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="../html/bachelor-s-master-degree">หลักสูตรระดับปริญญาโท</a></li>
+                  <li><a class="dropdown-item" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="../html/bachelor-s-doctorate">หลักสูตรระดับปริญญาเอก</a></li>
+                  <li><a class="dropdown-item" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
                 </ul>
               </li>
               <li>
@@ -116,15 +121,15 @@
               <li>
                 <hr class="dropdown-divider hide">
               </li>
-              <li><a class="dropdown-item hide" href="../html/bachelor-s-master-degree">หลักสูตรระดับปริญญาโท</a></li>
+              <li><a class="dropdown-item hide" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
               <li>
                 <hr class="dropdown-divider hide">
               </li>
-              <li><a class="dropdown-item hide" href="../html/bachelor-s-doctorate">หลักสูตรระดับปริญญาเอก</a></li>
+              <li><a class="dropdown-item hide" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
               <li>
                 <hr class="dropdown-divider hide">
               </li>
-              <li><a class="dropdown-item" href="../html/scholar.html">ทุนการศึกษา</a></li>
+              <li><a class="dropdown-item" href="../html/scholarship.html">ทุนการศึกษา</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -135,7 +140,21 @@
               <li><a class="dropdown-item" target="_blank" href="https://reg.kku.ac.th/registrar/home.asp?avs=44484.7912268518">บริการการศึกษา</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown" id="myDropdown">
+          <li class="nav-item dropdown" id="myDropdown3">
+            <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">ระบบสารสนเทศ</a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับนักศึกษา</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับบุคลากร</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="../html/inovation.html">แผนผังเว็บไซต์</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" id="myDropdown4">
             <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">วิจัยและนวัตกรรม</a>
             <ul class="dropdown-menu">
               <li> <a class="dropdown-item" href="../html/research.html">ศูนย์วิจัยและกลุ่มวิจัย</a></li>
@@ -143,32 +162,24 @@
                 <hr class="dropdown-divider">
               </li>
               <li> <a class="dropdown-item" href="../html/mou.html">MOU</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="../html/inovation.html">ผลงานนักศึกษา</a></li>
             </ul>
           </li>
           <li class="nav-item "><a class="nav-link text-white" href="../html/contact.html">ติดต่อ</a></li>
-
           
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarScrollingDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                TH
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">
-                    <img src="../img/flag/uk.png" class="img-fluid " alt="ukflag" style="width: 25%;">
-                    English (EN)</a></li>
-              </ul>
-            </li>
-          
-          
+                                                 
         </ul>
         
       </div>
-      
-
-
-
-    </nav>      
+  
+    </div>
+    <!-- navbar-collapse.// -->
+    
+    <!-- container-fluid.// -->
+  </nav>
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="../html/index.html">หน้าหลัก</a></li>
@@ -202,8 +213,9 @@
       
     </p>
   </div>
-  <footer class="text-center text-lg-start bg-dark text-white">
+  <footer id="footer" class="text-center text-lg-start bg-dark text-white">
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <h6 class="d-none">for validation</h6>
       <div class="me-5 d-none d-lg-block">
         <span>Get connected with us on social networks:</span>
       </div>
@@ -248,20 +260,20 @@
               สำหรับนักศึกษา
             </h6>
             <p>
-              <a href="#!" class="text-reset">• สาขาและหลักสูตร</a>
+              <a href="../html/bachelor-s-degree.html" class="text-reset">• สาขาและหลักสูตร</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">• การรับเข้าศึกษา</a>
+              <a href="https://admissions.kku.ac.th/" target="_blank" class="text-reset">• การรับเข้าศึกษา</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">• ระบบสารสนเทศ</a>
+              <a href="../html/student-menu.html" class="text-reset">• ระบบสารสนเทศ</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">• ดาวน์โหลดแบบฟอร์ม</a>
+              <a href="../html/student-menu.html" class="text-reset">• ดาวน์โหลดแบบฟอร์ม</a>
             </p>
           </div>
           <!-- Grid column -->
-
+          
           <!-- Grid column -->
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
@@ -269,15 +281,29 @@
               สำหรับบุคลากร
             </h6>
             <p>
-              <a href="#!" class="text-reset">• ระบบสารสนเทศ</a>
+              <a href="../html/student-menu.html" class="text-reset">• ระบบสารสนเทศ</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">• ดาวน์โหลดแบบฟอร์ม</a>
+              <a href="../html/student-menu.html" class="text-reset">• ดาวน์โหลดแบบฟอร์ม</a>
             </p>
 
           </div>
           <!-- Grid column -->
-
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class=" fw-bold mb-4">
+              หลักสูตร/การรับเข้าศึกษา
+            </h6>
+            <p>
+              <a href="../html/bachelor-s-degree.html" class="text-reset">• ปริญญาตรี</a>
+            </p>
+            <p>
+              <a href="../html/master-degree.html" class="text-reset">• ปริญญาโท</a>
+            </p>
+            <p>
+              <a href="../html/master-degree.html" class="text-reset">• ปริญญาเอก</a>
+            </p>
+          </div>
           <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
@@ -285,23 +311,28 @@
               เมนูลัด
             </h6>
             <p>
-              <a href="#!" class="text-reset">• งานวิจัย</a>
+              <a href="../html/news_feature_1.html" class="text-reset">• ข่าวทั้งหมด</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">• หอภาพ</a>
+              <a href="../html/bachelor-s-degree.html" class="text-reset">• ภาควิชา/สาขา</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">• รางวัลเกียรติยศ</a>
+              <a href="../html/research.html" class="text-reset">• งานวิจัย</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">• มหาวิทยาลัยขอนแก่น</a>
+              <a href="../html/inovation.html" class="text-reset">• ผลงานนักศึกษา</a>
+            </p>
+           
+            <p>
+              <a href="https://www.kku.ac.th/" target="_blank" class="text-reset">• มหาวิทยาลัยขอนแก่น</a>
             </p>
             <h6 class="fw-bold mb-2 mt-3">สื่อสังคมออนไลน์</h6>
             <a href="https://www.facebook.com/comsci.kku/" target="_blank"
               class=" me-4 text-reset text-decoration-none">
               <i class="fa fa-facebook-f"></i>
             </a>
-            <a href="https://www.youtube.com/channel/UCJbH9xZZ9rNGfKahEebeFOA" target="_blank" class="me-4 text-reset">
+            <a href="https://www.youtube.com/channel/UCJbH9xZZ9rNGfKahEebeFOA" target="_blank"
+              class="me-4 text-reset">
               <i class="fa fa-youtube-play"></i>
             </a>
           </div>
@@ -316,12 +347,13 @@
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2021 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">pormueng</a>
+      <a class="text-reset fw-bold" href="https://www.facebook.com/groups/2552784411534457/">SC312302 Web Design Technology</a>
     </div>
     <!-- Copyright -->
 
 
   </footer>
+
 </body>
 
 </html>

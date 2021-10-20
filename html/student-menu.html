@@ -1,186 +1,499 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>สำหรับนักศึกษา</title>
-    <link rel="icon" href="../logo-old/newlogo.svg">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      <title>สำหรับนักศึกษา</title>
+      <link rel="icon" href="../logo-old/newlogo.svg">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css1/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/student-menu.css">
-    <link rel="stylesheet" href="../css/navbar.css">
-</head>
-ิ
+      <link rel="stylesheet" href="../css1/bootstrap.min.css">
+      <link rel="stylesheet" href="../css/student-menu.css">
+      <link rel="stylesheet" href="../css/navbar.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
 
-<body>
-    <nav aria-label="breadcrumb">
+    <body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+            integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+        <script src="../js/bootstrap.min.js"></script>
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand img-fluid" href="../html/index.html"><img src="../logo-old/logo_pmg.png" alt=""
+              id="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav">
+              <li class="nav-item "><a class="nav-link text-white" href="../html/index.html">หน้าหลัก</a></li>
+              <li class="nav-item dropdown" id="myDropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">เกี่ยวกับ</a>
+                <ul class="dropdown-menu">
+
+                  <li> <a class="dropdown-item" href="../html/history.html">ประวัติ</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li> <a class="dropdown-item" href="../html/vision.html">วิสัยทัศน์</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="../html/organize.html">โครงสร้างองค์กร</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="../html/logo.html">ตราสัญลักษณ์</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item not-hide" href="#">บุคลากร&raquo; </a>
+                    <ul class="submenu dropdown-menu">
+                      <li><a class="dropdown-item" href="../html/organize.html">ผู้บริหารและกรรมการ</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br>
+                          สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br>
+                          สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา
+                          <br>ภูมิสารสนเทศศาสตร์</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider hide">
+                  </li>
+                  <li><a class="dropdown-item hide" href="../html/organize.html">ผู้บริหารและกรรมการ</a></li>
+                  <li>
+                    <hr class="dropdown-divider hide">
+                  </li>
+                  <li><a class="dropdown-item hide" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br>
+                      สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
+                  <li>
+                    <hr class="dropdown-divider hide">
+                  </li>
+                  <li><a class="dropdown-item hide" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br>
+                      สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
+                  <li>
+                    <hr class="dropdown-divider hide">
+                  </li>
+                  <li><a class="dropdown-item hide" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา
+                      <br>ภูมิสารสนเทศศาสตร์</a></li>
+                  <li>
+                    <hr class="dropdown-divider hide">
+                  </li>
+                  <li><a class="dropdown-item hide" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown" id="myDropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">หลักสูตร/รับเข้าศึกษา</a>
+                <ul class="dropdown-menu">
+                  <li> <a class="dropdown-item not-hide" href="#"> หลักสูตร &raquo; </a>
+                    <ul class="submenu dropdown-menu">
+                      <li><a class="dropdown-item" href="../html/bachelor-s-degree.html">หลักสูตรระดับปริญญาตรี</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item hide" href="../html/bachelor-s-degree.html">หลักสูตรระดับปริญญาตรี</a></li>
+                  <li>
+                    <hr class="dropdown-divider hide">
+                  </li>
+                  <li><a class="dropdown-item hide" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
+                  <li>
+                    <hr class="dropdown-divider hide">
+                  </li>
+                  <li><a class="dropdown-item hide" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
+                  <li>
+                    <hr class="dropdown-divider hide">
+                  </li>
+                  <li><a class="dropdown-item" href="../html/scholarship.html">ทุนการศึกษา</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="../html/calendar.html">ปฏิทินการศึกษา</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" target="_blank"
+                      href="https://reg.kku.ac.th/registrar/home.asp?avs=44484.7912268518">บริการการศึกษา</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown" id="myDropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">ระบบสารสนเทศ</a>
+                <ul class="dropdown-menu">
+                  <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับนักศึกษา</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับบุคลากร</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li> <a class="dropdown-item" href="../html/inovation.html">แผนผังเว็บไซต์</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown" id="myDropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">วิจัยและนวัตกรรม</a>
+                <ul class="dropdown-menu">
+                  <li> <a class="dropdown-item" href="../html/research.html">ศูนย์วิจัยและกลุ่มวิจัย</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li> <a class="dropdown-item" href="../html/mou.html">MOU</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li> <a class="dropdown-item" href="../html/inovation.html">ผลงานนักศึกษา</a></li>
+                </ul>
+              </li>
+              <li class="nav-item "><a class="nav-link text-white" href="../html/contact.html">ติดต่อ</a></li>
+
+
+            </ul>
+
+          </div>
+
+
+
+
+
+
+        </div>
+        <!-- navbar-collapse.// -->
+        </div>
+        <!-- container-fluid.// -->
+      </nav>
+      <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="../html/index.html">หน้าหลัก</a></li>
-          <li class="breadcrumb-item"><a href="#footer">เมนูลัด</a></li>
+          <li class="breadcrumb-item active">ระบบสารสนเทศ</li>
           <li class="breadcrumb-item active" aria-current="page">เมนูสำหรับนักศึกษา</li>
         </ol>
       </nav>
-    <div class="container">
+      <div class="container">
         <figure id="content1" class="text-center">
-            <h6 class="display-4 mb-3 text-dark">เมนูสำหรับนักศึกษา</h6>
-            <figcaption class="blockquote-footer text-center">
-                อัพเดทล่าสุดเมือ: 24 เมษายน 2561
-            </figcaption>
+          <h6 class="display-4 mb-3 text-dark">เมนูสำหรับนักศึกษา</h6>
+          <figcaption class="blockquote-footer text-center">
+            อัพเดทล่าสุดเมือ: 24 เมษายน 2561
+          </figcaption>
         </figure>
         <figure id="content1" class="text-start">
-            <h6 class=" mb-3 text-dark">ระบบสารสนเทศ</h6>
-            <figcaption class="blockquote-footer text-lg-start">
-                หากอยู่นอกเครือข่ายของ มข.ต้อง VPN เข้าใช้งาน
-            </figcaption>
+          <h6 class=" mb-3 text-dark">ระบบสารสนเทศ</h6>
+          <figcaption class="blockquote-footer text-lg-start">
+            หากอยู่นอกเครือข่ายของ มข.ต้อง VPN เข้าใช้งาน
+          </figcaption>
         </figure>
         <p class="fs-6">บริการระบบสารสนเทศสำหรับนักศึกษาในเครือข่ายของมหาวิทยาลัยขอนแก่นดังต่อไปนี้</p>
-        <ul id="itsys">
-            <li><a href="">ระบบจองห้องประชุม(Reservation)</a></li>
-            <li><a href="">ระบบการจองใช้ห้องปฏิบัติการทางคอมพิวเตอร์</a></li>
-            <li><a href="">E-Learning</a></li>
-            <li><a href="">ระบบวิทยานิพนธ์</a></li>
-            <li><a href="">ระบบผลงานสำหรับอาจารย์และนักศึกษา</a></li>
-            <li><a href="">ระบบจัดการโครงงานนักศึกษา</a></li>
-            <li><a href="">ระบบจัดการเอกสาร</a></li>
-            <li><a href="">ระบบแจ้งซ่อมออนไลน์</a></li>
-            <li><a href="">ระบบห้องสมุด</a></li>
-            <li><a href="">บริการลงทะเบียนเข้าใช้ห้องปฏิบัติการฯนอกตารางเรียน</a></li>
+        <ul class="content" id="itsys">
+          <li><a href="">ระบบจองห้องประชุม(Reservation)</a></li>
+          <li><a href="">ระบบการจองใช้ห้องปฏิบัติการทางคอมพิวเตอร์</a></li>
+          <li><a href="">E-Learning</a></li>
+          <li><a href="">ระบบวิทยานิพนธ์</a></li>
+          <li><a href="">ระบบผลงานสำหรับอาจารย์และนักศึกษา</a></li>
+          <li><a href="">ระบบจัดการโครงงานนักศึกษา</a></li>
+          <li><a href="">ระบบจัดการเอกสาร</a></li>
+          <li><a href="">ระบบแจ้งซ่อมออนไลน์</a></li>
+          <li><a href="">ระบบห้องสมุด</a></li>
+          <li><a href="">บริการลงทะเบียนเข้าใช้ห้องปฏิบัติการฯนอกตารางเรียน</a></li>
         </ul>
         <figure class="text-start">
-            <h6 class=" mb-3 text-dark">แบบฟอร์มระดับปริญญาตรี</h6>
+          <h6 class=" mb-3 text-dark">แบบฟอร์มระดับปริญญาตรี</h6>
         </figure>
         <div class="accordion" id="content2">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        • งานสหกิจศึกษา
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <ul id="formacc" class="ps-4">
-                            <li><a href="">• คู่มือสหกิจศึกษา</a></li>
-                            <li><a href="">• สหกิจ-01 แบบตอบรับเข้าร่วมโครงการสหกิจศึกษา</a></li>
-                            <li><a href="">• สหกิจ-02 ใบสมัครเข้าร่วมโครงการสหกิจศึกษา (แนบมาพร้อมใบ Transcript)</a>
-                            </li>
-                            <li><a href="">• สหกิจ-03 แบบตอบรับนักศึกษาฝึกสหกิจศึกษา</a></li>
-                            <li><a href="">• สหกิจ-04 แบบลงเวลาปฏิบัติงานของนักศึกษาปฏิบัติงานสหกิจศึกษา</a></li>
-                            <li><a href="">• สหกิจ-05 แบบแจ้งยืนยันส่งรายงานการปฏิบัติงาน</a></li>
-                            <li><a href="">• สหกิจ-06 แบบแจ้งรายละเอียดที่พักระหว่างปฏิบัติงานสหกิจศึกษา</a></li>
-                            <li><a href="">• สหกิจ-07 แบบแจ้งรายละเอียดเกี่ยวกับการปฏิบัติงานสหกิจ</a></li>
-                            <li><a href="">• สหกิจ-08 แจ้งรายละเอียดงาน/ตำแหน่งงาน/พนักงานที่ปรึกษา</a></li>
-                            <li><a href="">• สหกิจ-09-01 แบบประเมินนักศึกษาสหกิจสำหรับผู้ประกอบการ</a></li>
-                            <li><a href="">• สหกิจ-09-02 แบบสอบถาม-การนิเทศงานนักศึกษาสำหรับอาจารย์</a></li>
-                            <li><a href="">• สหกิจ-10 แบบแจ้งโคร่งร่างรายงานการปฏิบัติงาน (Proposal)</a></li>
-                            <li><a href="">• สหกิจ-11 แบบแจ้งแผนปฏิบัติงานความก้าวหน้าสหกิจศึกษา</a></li>
-                            <li><a href="">• สหกิจ-12-01
-                                    สรุปแบบประเมินผลการปฏิบัติงานของนักศึกษาสหกิจสำหรับสถานประกอบการ</a></li>
-                            <li><a href="">• สหกิจ-12-02 สรุปแบบประเมินผลรายงานของนักศึกษาสหกิจสำหรับอาจารย์</a></li>
-                            <li><a href="">• สหกิจ-13 แบบประเมินการนำเสนอผลงานสำหรับคณะกรรมการสหกิจศึกษา</a></li>
-                        </ul>
-                    </div>
-                </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                • งานสหกิจศึกษา
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul id="formacc" class="content ps-4">
+                  <li><a href="">• คู่มือสหกิจศึกษา</a></li>
+                  <li><a href="">• สหกิจ-01 แบบตอบรับเข้าร่วมโครงการสหกิจศึกษา</a></li>
+                  <li><a href="">• สหกิจ-02 ใบสมัครเข้าร่วมโครงการสหกิจศึกษา (แนบมาพร้อมใบ Transcript)</a>
+                  </li>
+                  <li><a href="">• สหกิจ-03 แบบตอบรับนักศึกษาฝึกสหกิจศึกษา</a></li>
+                  <li><a href="">• สหกิจ-04 แบบลงเวลาปฏิบัติงานของนักศึกษาปฏิบัติงานสหกิจศึกษา</a></li>
+                  <li><a href="">• สหกิจ-05 แบบแจ้งยืนยันส่งรายงานการปฏิบัติงาน</a></li>
+                  <li><a href="">• สหกิจ-06 แบบแจ้งรายละเอียดที่พักระหว่างปฏิบัติงานสหกิจศึกษา</a></li>
+                  <li><a href="">• สหกิจ-07 แบบแจ้งรายละเอียดเกี่ยวกับการปฏิบัติงานสหกิจ</a></li>
+                  <li><a href="">• สหกิจ-08 แจ้งรายละเอียดงาน/ตำแหน่งงาน/พนักงานที่ปรึกษา</a></li>
+                  <li><a href="">• สหกิจ-09-01 แบบประเมินนักศึกษาสหกิจสำหรับผู้ประกอบการ</a></li>
+                  <li><a href="">• สหกิจ-09-02 แบบสอบถาม-การนิเทศงานนักศึกษาสำหรับอาจารย์</a></li>
+                  <li><a href="">• สหกิจ-10 แบบแจ้งโคร่งร่างรายงานการปฏิบัติงาน (Proposal)</a></li>
+                  <li><a href="">• สหกิจ-11 แบบแจ้งแผนปฏิบัติงานความก้าวหน้าสหกิจศึกษา</a></li>
+                  <li><a href="">• สหกิจ-12-01
+                      สรุปแบบประเมินผลการปฏิบัติงานของนักศึกษาสหกิจสำหรับสถานประกอบการ</a></li>
+                  <li><a href="">• สหกิจ-12-02 สรุปแบบประเมินผลรายงานของนักศึกษาสหกิจสำหรับอาจารย์</a></li>
+                  <li><a href="">• สหกิจ-13 แบบประเมินการนำเสนอผลงานสำหรับคณะกรรมการสหกิจศึกษา</a></li>
+                </ul>
+              </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        • ฝึกงานนักศึกษาภาคฤดูร้อน
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <ul id="formacc" class="ps-4">
-                            <li><a href="">• สมุดบันทึกการฝึกงาน</a></li>
-                            <li><a href="">• ใบรับรองการฝึกงาน</a></li>
-                            <li><a href="">• แบบประเมินการฝึก</a></li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                • ฝึกงานนักศึกษาภาคฤดูร้อน
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul id="formacc" class="content ps-4">
+                  <li><a href="">• สมุดบันทึกการฝึกงาน</a></li>
+                  <li><a href="">• ใบรับรองการฝึกงาน</a></li>
+                  <li><a href="">• แบบประเมินการฝึก</a></li>
+                </ul>
+              </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        • แบบฟอร์มตรวจสอบสำเร็จการศึกษา
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <ul id="formacc" class="ps-4">
-                            <li><a href="">• แบบฟอร์มตรวจสอบการสำเร็จการศึกษา สาขาวิชาภูมิสารสนเทศศาสตร์ (รหัส 50
-                                    เป็นต้นไป)</a></li>
-                            <li><a href="">• แบบฟอร์มตรวจสอบการสำเร็จการศึกษา สาขาวิชาวิทยาการคอมพิวเตอร์ (รหัส 52
-                                    เป็นต้นไป)</a></li>
-                            <li><a href="">• แบบฟอร์มตรวจสอบการสำเร็จการศึกษา สาขาวิชาเทคโนโลยีสารสนเทศและการสื่อสาร
-                                    (รหัส 50 - 53 )</a></li>
-                            <li><a href="">• แบบฟอร์มตรวจสอบการสำเร็จการศึกษา สาขาวิชาเทคโนโลยีสารสนเทศและการสื่อสาร
-                                    รหัส 54</a></li>
-                            <li><a href="">• แบบฟอร์มตรวจสอบการสำเร็จการศึกษา สาขาวิชาเทคโนโลยีสารสนเทศและการสื่อสาร
-                                    รหัส 59</a></li>
-                        </ul>
-                    </div>
-                </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                • แบบฟอร์มตรวจสอบสำเร็จการศึกษา
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ul id="formacc" class="content ps-4">
+                  <li><a href="">• แบบฟอร์มตรวจสอบการสำเร็จการศึกษา สาขาวิชาภูมิสารสนเทศศาสตร์ (รหัส 50
+                      เป็นต้นไป)</a></li>
+                  <li><a href="">• แบบฟอร์มตรวจสอบการสำเร็จการศึกษา สาขาวิชาวิทยาการคอมพิวเตอร์ (รหัส 52
+                      เป็นต้นไป)</a></li>
+                  <li><a href="">• แบบฟอร์มตรวจสอบการสำเร็จการศึกษา สาขาวิชาเทคโนโลยีสารสนเทศและการสื่อสาร
+                      (รหัส 50 - 53 )</a></li>
+                  <li><a href="">• แบบฟอร์มตรวจสอบการสำเร็จการศึกษา สาขาวิชาเทคโนโลยีสารสนเทศและการสื่อสาร
+                      รหัส 54</a></li>
+                  <li><a href="">• แบบฟอร์มตรวจสอบการสำเร็จการศึกษา สาขาวิชาเทคโนโลยีสารสนเทศและการสื่อสาร
+                      รหัส 59</a></li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    • แบบฟอร์มอื่นๆ
-                </button>
-            </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <ul id="formacc" class="ps-4">
-                        <li><a href="">• แบบคำร้องขอหนังสือขอความอนุเคราะห์ข้อมูลจากหน่วยงานภายนอก
-                                เพื่อใช้ในการทำโครงการ/วิจัย</a></li>
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              • แบบฟอร์มอื่นๆ
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul id="formacc" class="content ps-4">
+                <li><a href="">• แบบคำร้องขอหนังสือขอความอนุเคราะห์ข้อมูลจากหน่วยงานภายนอก
+                    เพื่อใช้ในการทำโครงการ/วิจัย</a></li>
 
-                    </ul>
-                </div>
+              </ul>
             </div>
+          </div>
         </div>
-        <figure id="content1" class="text-start mt-5">
-            <h6 class=" mb-3 text-dark">แบบฟอร์มระดับบัณฑิต</h6>
+        <figure id="content1" class="text-start mt-5 ">
+          <h6 class=" mb-3 text-dark">แบบฟอร์มระดับบัณฑิต</h6>
         </figure>
-        <ul id="itsys">
-            <li><a href="">Certification of Independent Study Referencing System</a></li>
-            <li><a href="">Certification of Publicizing Thesis/Independent Study</a></li>
-            <li><a href="">Certification of Thesis Referencing System</a></li>
-            <li><a href="">General Request</a></li>
-            <li><a href="">Late Registration Adding Subject Form in Special Case</a></li>
-            <li><a href="">Proposal for Appointment of An External Qualified Expert/ A Specialist in the Faculty of
-                    Sciences</a></li>
-            <li><a href="">Request for Research Fee Offset for Graduate Program Study</a></li>
-            <li><a href="">Request for Transfer of Credit for Comprehensive/Qualifying Examination At the Graduate
-                    Level</a></li>
-            <li><a href="">Request for Transfer of Published Work for the Qualifying Examination at The Graduate Program
-                    Level</a></li>
-            <li><a href="">คำร้องขอเทียบโอนการสอบข้อเขียนประมวลความรู้/สอบวัดคุณสมบัติ โดยใช้เกรด</a></li>
-            <li><a href="">คำร้องขอเทียบโอนการสอบข้อเขียนประมวลความรู้และสอบวัดคุณสมบัติ</a></li>
-            <li><a href="">แบบฟอร์มรับรองการเผยแพร่ผลงานวิทยานิพนธ์/การศึกษาอิสระ</a></li>
-            <li><a href="">แบบเสนอแต่งตั้งผู้ทรงคุณวุฒิภายนอกผู้เชี่ยวชาญเฉพาะ</a></li>
-            <li><a href="">ใบขอรับทุนสนับสนุนการเผยแพร่ผลงานวิชาการระดับชาติ/นานาชาติ</a></li>
-            <li><a href="">ใบนัดกรรมการสอบ</a></li>
-            <li><a href="">ใบรับรองรูปแบบการเขียนเอกสารอ้างอิงการศึกษาอิสระ</a></li>
-            <li><a href="">ใบรับรองรูปแบบการเขียนเอกสารอ้างอิงวิทยานิพนธ์</a></li>
+        <ul id="itsys" class="content pb-5">
+          <li><a href="">Certification of Independent Study Referencing System</a></li>
+          <li><a href="">Certification of Publicizing Thesis/Independent Study</a></li>
+          <li><a href="">Certification of Thesis Referencing System</a></li>
+          <li><a href="">General Request</a></li>
+          <li><a href="">Late Registration Adding Subject Form in Special Case</a></li>
+          <li><a href="">Proposal for Appointment of An External Qualified Expert/ A Specialist in the Faculty of
+              Sciences</a></li>
+          <li><a href="">Request for Research Fee Offset for Graduate Program Study</a></li>
+          <li><a href="">Request for Transfer of Credit for Comprehensive/Qualifying Examination At the Graduate
+              Level</a></li>
+          <li><a href="">Request for Transfer of Published Work for the Qualifying Examination at The Graduate Program
+              Level</a></li>
+          <li><a href="">คำร้องขอเทียบโอนการสอบข้อเขียนประมวลความรู้/สอบวัดคุณสมบัติ โดยใช้เกรด</a></li>
+          <li><a href="">คำร้องขอเทียบโอนการสอบข้อเขียนประมวลความรู้และสอบวัดคุณสมบัติ</a></li>
+          <li><a href="">แบบฟอร์มรับรองการเผยแพร่ผลงานวิทยานิพนธ์/การศึกษาอิสระ</a></li>
+          <li><a href="">แบบเสนอแต่งตั้งผู้ทรงคุณวุฒิภายนอกผู้เชี่ยวชาญเฉพาะ</a></li>
+          <li><a href="">ใบขอรับทุนสนับสนุนการเผยแพร่ผลงานวิชาการระดับชาติ/นานาชาติ</a></li>
+          <li><a href="">ใบนัดกรรมการสอบ</a></li>
+          <li><a href="">ใบรับรองรูปแบบการเขียนเอกสารอ้างอิงการศึกษาอิสระ</a></li>
+          <li><a href="">ใบรับรองรูปแบบการเขียนเอกสารอ้างอิงวิทยานิพนธ์</a></li>
         </ul>
-    </div>
+      </div>
+      <footer id="footer" class="text-center text-lg-start bg-dark text-white">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/comsci.kku/" target="_blank" class="me-4 text-reset text-decoration-none">
+              <i class="fa fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCJbH9xZZ9rNGfKahEebeFOA" target="_blank" class="me-4 text-reset">
+              <i class="fa fa-youtube-play"></i>
+            </a>
+          </div>
+  
+  
+        </section>
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <img src="../logo-old/newlogo.svg" class="img-fluid w-50 mb-2 ms-lg-4" alt="">
+                <h6 class="fw-bold mb-4">
+                  <i class="fa fa-laptop"></i>&nbsp; วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น
+                </h6>
+                <a href="./contact.html">
+                  <h6 class="fw-bold text-white">ติดต่อเรา</h6>
+                </a>
+                <p>
+                  <i class="fa fa-location-arrow"></i> 123 ถ.มิตรภาพ ต.ในเมือง อ.เมือง จ.ขอนแก่น 40002 <br>
+                  <i class="fa fa-phone"></i> 043-009700 ต่อ 44456, 44459, 44457 <br>
+                  <i class="fa fa-phone"></i> สายด่วน 089-7102651, <br> 089-7102645 <br>
+                </p>
+              </div>
+              <!-- Grid column -->
+  
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class=" fw-bold mb-4">
+                  สำหรับนักศึกษา
+                </h6>
+                <p>
+                  <a href="../html/bachelor-s-degree.html" class="text-reset">• สาขาและหลักสูตร</a>
+                </p>
+                <p>
+                  <a href="https://admissions.kku.ac.th/" target="_blank" class="text-reset">• การรับเข้าศึกษา</a>
+                </p>
+                <p>
+                  <a href="../html/student-menu.html" class="text-reset">• ระบบสารสนเทศ</a>
+                </p>
+                <p>
+                  <a href="../html/student-menu.html" class="text-reset">• ดาวน์โหลดแบบฟอร์ม</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+              
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="fw-bold mb-4">
+                  สำหรับบุคลากร
+                </h6>
+                <p>
+                  <a href="../html/student-menu.html" class="text-reset">• ระบบสารสนเทศ</a>
+                </p>
+                <p>
+                  <a href="../html/student-menu.html" class="text-reset">• ดาวน์โหลดแบบฟอร์ม</a>
+                </p>
+  
+              </div>
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class=" fw-bold mb-4">
+                  หลักสูตร/การรับเข้าศึกษา
+                </h6>
+                <p>
+                  <a href="../html/bachelor-s-degree.html" class="text-reset">• ปริญญาตรี</a>
+                </p>
+                <p>
+                  <a href="../html/master-degree.html"class="text-reset">• ปริญญาโท</a>
+                </p>
+                <p>
+                  <a href="../html/master-degree.html" class="text-reset">• ปริญญาเอก</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="fw-bold mb-4">
+                  เมนูลัด
+                </h6>
+                <p>
+                  <a href="../html/news_feature_1.html" class="text-reset">• ข่าวทั้งหมด</a>
+                </p>
+                <p>
+                  <a href="../html/bachelor-s-degree.html" class="text-reset">• ภาควิชา/สาขา</a>
+                </p>
+                <p>
+                  <a href="../html/research.html" class="text-reset">• งานวิจัย</a>
+                </p>
+                <p>
+                  <a href="../html/inovation.html" class="text-reset">• ผลงานนักศึกษา</a>
+                </p>
+               
+                <p>
+                  <a href="https://www.kku.ac.th/" target="_blank" class="text-reset">• มหาวิทยาลัยขอนแก่น</a>
+                </p>
+                <h6 class="fw-bold mb-2 mt-3">สื่อสังคมออนไลน์</h6>
+                <a href="https://www.facebook.com/comsci.kku/" target="_blank"
+                  class=" me-4 text-reset text-decoration-none">
+                  <i class="fa fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCJbH9xZZ9rNGfKahEebeFOA" target="_blank"
+                  class="me-4 text-reset">
+                  <i class="fa fa-youtube-play"></i>
+                </a>
+              </div>
+              <!-- Grid column -->
+  
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+  
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="https://www.facebook.com/groups/2552784411534457/">SC312302 Web Design Technology</a>
+        </div>
+        <!-- Copyright -->
+  
+  
+      </footer>
+    </body>
 
-    </div>
-
-</body>
+</html>
