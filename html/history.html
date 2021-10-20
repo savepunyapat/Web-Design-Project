@@ -15,6 +15,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="../css1/bootstrap.min.css">
   <link rel="stylesheet" href="../css/history.css">
+  <link rel="stylesheet" href="../css/navbar.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
   <script src="../js/bootstrap.min.js"></script>
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand img-fluid" href="#"><img src="../logo-old/logo_pmg.png" alt="" id="logo"></a>
+      <a class="navbar-brand img-fluid" href="../html/index.html"><img src="../logo-old/logo_pmg.png" alt="" id="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,6 +51,10 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
+              <li><a class="dropdown-item" href="../html/logo.html">ตราสัญลักษณ์</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
               <li><a class="dropdown-item not-hide" href="#">บุคลากร&raquo; </a>
                 <ul class="submenu dropdown-menu">
                   <li><a class="dropdown-item" href="../html/organize.html">ผู้บริหารและกรรมการ</a></li>
@@ -68,7 +73,7 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="#">เจ้าหน้าที่</a></li>
+                  <li><a class="dropdown-item" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
                 </ul>
               </li>
               <li>
@@ -90,7 +95,7 @@
               <li>
                 <hr class="dropdown-divider hide">
               </li>
-              <li><a class="dropdown-item hide" href="#">เจ้าหน้าที่</a></li>
+              <li><a class="dropdown-item hide" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown" id="myDropdown">
@@ -102,11 +107,11 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="../html/bachelor-s-master-degree">หลักสูตรระดับปริญญาโท</a></li>
+                  <li><a class="dropdown-item" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="../html/bachelor-s-doctorate">หลักสูตรระดับปริญญาเอก</a></li>
+                  <li><a class="dropdown-item" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
                 </ul>
               </li>
               <li>
@@ -116,15 +121,15 @@
               <li>
                 <hr class="dropdown-divider hide">
               </li>
-              <li><a class="dropdown-item hide" href="../html/bachelor-s-master-degree">หลักสูตรระดับปริญญาโท</a></li>
+              <li><a class="dropdown-item hide" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
               <li>
                 <hr class="dropdown-divider hide">
               </li>
-              <li><a class="dropdown-item hide" href="../html/bachelor-s-doctorate">หลักสูตรระดับปริญญาเอก</a></li>
+              <li><a class="dropdown-item hide" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
               <li>
                 <hr class="dropdown-divider hide">
               </li>
-              <li><a class="dropdown-item" href="../html/scholar.html">ทุนการศึกษา</a></li>
+              <li><a class="dropdown-item" href="../html/scholarship.html">ทุนการศึกษา</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
@@ -136,6 +141,20 @@
             </ul>
           </li>
           <li class="nav-item dropdown" id="myDropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">ระบบสารสนเทศ</a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับนักศึกษา</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับบุคลากร</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="../html/inovation.html">แผนผังเว็บไซต์</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" id="myDropdown">
             <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">วิจัยและนวัตกรรม</a>
             <ul class="dropdown-menu">
               <li> <a class="dropdown-item" href="../html/research.html">ศูนย์วิจัยและกลุ่มวิจัย</a></li>
@@ -143,32 +162,24 @@
                 <hr class="dropdown-divider">
               </li>
               <li> <a class="dropdown-item" href="../html/mou.html">MOU</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="../html/inovation.html">ผลงานนักศึกษา</a></li>
             </ul>
           </li>
           <li class="nav-item "><a class="nav-link text-white" href="../html/contact.html">ติดต่อ</a></li>
-
           
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarScrollingDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                TH
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">
-                    <img src="../img/flag/uk.png" class="img-fluid " alt="ukflag" style="width: 25%;">
-                    English (EN)</a></li>
-              </ul>
-            </li>
-          
-          
+                                                 
         </ul>
         
       </div>
-      
-
-
-
-    </nav>      
+  
+    </div>
+    <!-- navbar-collapse.// -->
+    </div>
+    <!-- container-fluid.// -->
+  </nav>
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="../html/index.html">หน้าหลัก</a></li>

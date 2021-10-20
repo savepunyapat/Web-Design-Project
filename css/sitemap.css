@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');
+section.content{
+    font-family: 'Sarabun', sans-serif;
+}
+section.footer {
+    font-family: 'Prompt', sans-serif;
+}
+a.text-reset:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}

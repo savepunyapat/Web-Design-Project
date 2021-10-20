@@ -1,29 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400&display=swap');
-*{
+
+div.container{
     font-family: 'Sarabun', sans-serif;
 }
-h6{
+figure h6{
     font-size: 2rem;
 }
 
-ul{
+ul.content{
     list-style: none;
     text-align: center;
     
 }
+
 ul#itsys{
     list-style: none;
     text-align: start;
     
 }
+
 ul#itsys li {
     display: block;
     padding-top: 0.2em;
 }
 
-ul li{
+ul.content li{
     display: inline;
     padding-right: 1em;
     
