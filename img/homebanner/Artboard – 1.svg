@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="232" height="232" viewBox="0 0 232 232">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="232" height="232"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="232" height="232" fill="#e2e2e2"/>
+    <path id="graduation-cap-solid" d="M119.937,81.188,66.182,64.672a15.4,15.4,0,0,0-9.017,0L3.407,81.188a4.537,4.537,0,0,0,0,8.786l9.372,2.879a15.186,15.186,0,0,0-3.446,9.038,5.947,5.947,0,0,0-.491,10.218l-4.92,22.139A3.083,3.083,0,0,0,6.93,138H17.743a3.083,3.083,0,0,0,3.01-3.752l-4.92-22.139a5.931,5.931,0,0,0-.347-10.121,9.091,9.091,0,0,1,3.987-7.076l37.689,11.58a15.412,15.412,0,0,0,9.017,0l53.757-16.516a4.538,4.538,0,0,0,0-8.788Zm-51.946,31.2a21.573,21.573,0,0,1-12.64,0L27.4,103.8l-2.733,21.865c0,6.812,16.566,12.334,37,12.334s37-5.521,37-12.334L95.941,103.8Z" transform="translate(54.327 -9.998)" opacity="0.51"/>
+    <text id="ปริญญาตรี" transform="translate(78 178)" fill="#707070" font-size="20" font-family="FCSubjectCondensedNoncml-Reg, 'FC Subject \[Non-cml\.\]'"><tspan x="0" y="0">ปริญญาตรี</tspan></text>
+  </g>
+</svg>

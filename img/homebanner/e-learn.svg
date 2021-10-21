@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="232" height="232" viewBox="0 0 232 232">
+  <defs>
+    <clipPath id="clip-e-learn">
+      <rect width="232" height="232"/>
+    </clipPath>
+  </defs>
+  <g id="e-learn" clip-path="url(#clip-e-learn)">
+    <rect width="232" height="232" fill="#e2e2e2"/>
+    <text id="KKU_E-LEARNING" data-name="KKU E-LEARNING" transform="translate(51 178)" fill="#707070" font-size="20" font-family="FCSubjectCondensedNoncml-Reg, 'FC Subject \[Non-cml\.\]'"><tspan x="0" y="0">KKU E-LEARNING</tspan></text>
+    <path id="Icon_awesome-pencil-ruler" data-name="Icon awesome-pencil-ruler" d="M13.686,30.513,30.512,13.689,25,8.172l-7.712,7.712a.99.99,0,0,1-1.4,0l-1.4-1.4a.99.99,0,0,1,0-1.4l7.712-7.712L17.987,1.162a3.966,3.966,0,0,0-5.609,0L1.162,12.378a3.967,3.967,0,0,0,0,5.609L13.686,30.513Zm48.57-14.6a6.006,6.006,0,0,0,0-8.493L56.6,1.758a6.008,6.008,0,0,0-8.5,0L42.349,7.511,56.5,21.664ZM39.52,10.342,2.386,47.471.04,60.9a2.654,2.654,0,0,0,3.074,3.071l13.434-2.356L53.673,24.494ZM62.854,46.029l-4.206-4.206-7.712,7.712a.99.99,0,0,1-1.4,0l-1.4-1.4a.992.992,0,0,1,0-1.4l7.712-7.712L50.326,33.5,33.5,50.325,46.029,62.853a3.966,3.966,0,0,0,5.609,0L62.854,51.638a3.966,3.966,0,0,0,0-5.609Z" transform="translate(83.993 57.992)" opacity="0.51"/>
+  </g>
+</svg>

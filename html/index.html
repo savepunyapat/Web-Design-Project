@@ -9,8 +9,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>C² | วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น </title>
-    <link rel="icon" href="../logo-old/newlogo.svg">
+  <title>C² | วิทยาลัยการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น </title>
+  <link rel="icon" href="../logo-old/newlogo.svg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -18,9 +18,11 @@
   <link rel="stylesheet" href="../css1/bootstrap.min.css">
   <link rel="stylesheet" href="../css/home.css">
   <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/fadein.css">
 </head>
 
 <body>
+  <script src="https://apis.google.com/js/platform.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
     integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
@@ -31,7 +33,8 @@
   <script src="../js/navbar.js"></script>
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand img-fluid" href="../html/index.html"><img src="../logo-old/logo_pmg.png" alt="" id="logo"></a>
+      <a class="navbar-brand img-fluid" href="../html/index.html"><img src="../logo-old/logo_pmg.png" alt=""
+          id="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,10 +42,10 @@
       <div class="collapse navbar-collapse" id="main_nav">
         <ul class="navbar-nav">
           <li class="nav-item "><a class="nav-link text-white" href="../html/index.html">หน้าหลัก</a></li>
-          <li class="nav-item dropdown" id="myDropdown">
+          <li class="nav-item dropdown" id="myDropdown1">
             <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">เกี่ยวกับ</a>
             <ul class="dropdown-menu">
-              
+
               <li> <a class="dropdown-item" href="../html/history.html">ประวัติ</a></li>
               <li>
                 <hr class="dropdown-divider">
@@ -65,15 +68,18 @@
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
+                  <li><a class="dropdown-item" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br>
+                      สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
+                  <li><a class="dropdown-item" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br>
+                      สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา <br>ภูมิสารสนเทศศาสตร์</a></li>
+                  <li><a class="dropdown-item" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา
+                      <br>ภูมิสารสนเทศศาสตร์</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
@@ -87,22 +93,25 @@
               <li>
                 <hr class="dropdown-divider hide">
               </li>
-              <li><a class="dropdown-item hide" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
+              <li><a class="dropdown-item hide" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br>
+                  สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
               <li>
                 <hr class="dropdown-divider hide">
               </li>
-              <li><a class="dropdown-item hide" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
+              <li><a class="dropdown-item hide" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br>
+                  สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
               <li>
                 <hr class="dropdown-divider hide">
               </li>
-              <li><a class="dropdown-item hide" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา <br>ภูมิสารสนเทศศาสตร์</a></li>
+              <li><a class="dropdown-item hide" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา
+                  <br>ภูมิสารสนเทศศาสตร์</a></li>
               <li>
                 <hr class="dropdown-divider hide">
               </li>
               <li><a class="dropdown-item hide" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown" id="myDropdown">
+          <li class="nav-item dropdown" id="myDropdown2">
             <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">หลักสูตร/รับเข้าศึกษา</a>
             <ul class="dropdown-menu">
               <li> <a class="dropdown-item not-hide" href="#"> หลักสูตร &raquo; </a>
@@ -141,10 +150,11 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" target="_blank" href="https://reg.kku.ac.th/registrar/home.asp?avs=44484.7912268518">บริการการศึกษา</a></li>
+              <li><a class="dropdown-item" target="_blank"
+                  href="https://reg.kku.ac.th/registrar/home.asp?avs=44484.7912268518">บริการการศึกษา</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown" id="myDropdown">
+          <li class="nav-item dropdown" id="myDropdown3">
             <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">ระบบสารสนเทศ</a>
             <ul class="dropdown-menu">
               <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับนักศึกษา</a></li>
@@ -155,10 +165,10 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li> <a class="dropdown-item" href="../html/inovation.html">แผนผังเว็บไซต์</a></li>
+              <li> <a class="dropdown-item" href="../html/sitemap.html">แผนผังเว็บไซต์</a></li>
             </ul>
           </li>
-          <li class="nav-item dropdown" id="myDropdown">
+          <li class="nav-item dropdown" id="myDropdown4">
             <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">วิจัยและนวัตกรรม</a>
             <ul class="dropdown-menu">
               <li> <a class="dropdown-item" href="../html/research.html">ศูนย์วิจัยและกลุ่มวิจัย</a></li>
@@ -169,16 +179,16 @@
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li> <a class="dropdown-item" href="../html/inovation.html">ผลงานนักศึกษา</a></li>
+              <li> <a class="dropdown-item" href="../html/sitemap.html">ผลงานนักศึกษา</a></li>
             </ul>
           </li>
           <li class="nav-item "><a class="nav-link text-white" href="../html/contact.html">ติดต่อ</a></li>
-          
-                                                 
+
+
         </ul>
-        
+
       </div>
-  
+
     </div>
     <!-- navbar-collapse.// -->
     </div>
@@ -191,98 +201,163 @@
     </div>
 
   </div>
-    <div class="container counter mt-4">
-      <div class="row text-center">
-        <div class="col-md-4">
-          <h2>
-            <span id="count1">3</span>
-          </h2>
-          <p>หลักสูตร <i class="fa fa-book"></i></p>
-        </div>
-        <div class="col-md-4 ">
-          <h2>
-            <span id="count2"></span>+
-          </h2>
-          <p>บุคลากร <i class="fa fa-address-card"></i></p>
-        </div>
-        <div class="col-md-4 ">
-          <h2>
-            <span id="count3"></span>+
-          </h2>
-          <p>นักศึกษา <i class="fa fa-users"></i></p>
-        </div>
+
+  <div class="container counter mt-4">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <h2>
+          <span id="count1">3</span>
+        </h2>
+        <p>หลักสูตร <i class="fa fa-book"></i></p>
+      </div>
+      <div class="col-md-4 ">
+        <h2>
+          <span id="count2"></span>+
+        </h2>
+        <p>บุคลากร <i class="fa fa-address-card"></i></p>
+      </div>
+      <div class="col-md-4 ">
+        <h2>
+          <span id="count3"></span>+
+        </h2>
+        <p>นักศึกษา <i class="fa fa-users"></i></p>
       </div>
     </div>
-  <!--News-->
-  <h2 class="text-center mt-5 " id="news line">ยกระดับทรัพยากรมนุษย์ด้านเทคโนโลยีดิจิทัลเข้าสู่อุตสาหกรรมใหม่ (New
-    S-Curve) เน้นตามความต้องการของผู้ใช้บัณฑิต</h2>
-  <div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide p-1 shadow-lg " data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100 img-fluid" src="../img/banner/kkuoldbanner.jpg" alt="First slide">
+  </div>
+  <section id="gallary_menu" class="mt-5 text-center">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-2">
+          <a href="https://admissions.kku.ac.th/" target="_blank"> <img src="../img/homebanner/student.svg"
+              class="img-fluid mb-1" alt="student_banner"></a>
+          </a>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 img-fluid" src="https://www.cs.kku.ac.th/images/news/2564/24_sumonta/ss.jpg"
-            alt="Second slide">
+        <div class="col-md-2">
+          <a href="../html/bachelor-s-degree.html"><img src="../img/homebanner/bachelor.svg" class="img-fluid mb-1"
+              alt="bachelor_banner"></a>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100 img-fluid" src="https://www.cs.kku.ac.th/images/news/2564/24_sumonta/ss.jpg"
-            alt="Second slide">
+        <div class="col-md-2">
+          <a href="../html/calendar.html"><img src="../img/homebanner/calendar.svg" class="img-fluid mb-1"
+              alt="calendar_banner"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="../html/research.html"><img src="../img/homebanner/research.svg" class="img-fluid mb-1"
+              alt="research_banner"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="../html/scholarship.html"><img src="../img/homebanner/scholar.svg" class="img-fluid mb-1"
+              alt="scholar_banner"></a>
+        </div>
+        <div class="col-md-2">
+          <a href="https://e-learning.kku.ac.th/" target="_blank"><img src="../img/homebanner/e-learn.svg"
+              class="img-fluid mb-1" alt="e-learn_banner"></a>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-      <!-- 
+
+
+    </div>
+    <!--News-->
+    <div class="container mt-0">
+      <div id="carouselExampleIndicators" class="carousel slide p-1 shadow-lg " data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="../html/news2.html"> <img class="d-block  img-fluid" src="../img/news/com-skill/com-skill.jpg"
+                alt="First slide"></a>
+
+          </div>
+          <div class="carousel-item">
+            <a href="../html/news1.html"><img class="d-block  img-fluid" src="../img/news/com-skill/ss.jpg"
+                alt="Second slide"></a>
+
+          </div>
+          <div class="carousel-item">
+            <a href="../html/news1.html"><img class="d-block  img-fluid" src="../img/news/com-skill/top10-2.jpg"
+                alt="Second slide"></a>
+
+          </div>
+          <div class="carousel-item">
+            <a href="../html/news2.html"> <img class="d-block  img-fluid" src="../img/news/com-skill/ss (1).jpg"
+                alt="Third slide"></a>
+
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <!-- 
           carouselเป็นสร้างมาจาก3D transforms และjavascript
           กำหนด.carouselเพื่อใช้งาน data-ride="carousel" ใช้สำหรับกำหนดanimatingของcarousel
           .active เพื่อให้carouselนั้นทำงานเป็นrequiredmentของbootstrap
           carousel-control-prev และ carousel-control-prev เป็นปุ่มควบคุมslide
           id="carouselExampleIndicators จะนำไปเรียกในjavascript
          -->
+      </div>
     </div>
-  </div>
 
-  
-  <section id="gallary" class="p-5">
-    <div class="container">
-        <h5 class="fs-5 fw-bold">อ่านข่าวอื่นๆ</h5>
+
+    <section id="gallary" class="mt-5 mb-3 text-start">
+      <div class="container">
+        <h5 class="fs-5 fw-bold text-start">ประชาสัมพันธ์</h5>
         <div class="row mb-4">
-            <div class="col-md-4">
-                <a href="../html/news1.html"> <img src="https://www.cs.kku.ac.th/images/news/2564/24_sumonta/ss.jpg" class="img-fluid mb-1" alt="next_news" id="othernews"></a>
-                <a href="../html/news1.html" id="content">ผศ. ดร.สุมณฑา เกษมวิลาศ ได้รับเชิญจากโรงพยาบาลพระศรีมหาโพธิ์ เป็นวิทยากรในงานประชุมเชิงปฏิบัติการเพื่อพัฒนาต้นแบบแอปพลิเคชันการบำบัดด้วยการกระตุ้นพฤติกรรมสำหรับผู้มีภาวะซึมเศร้า ครั้งที่ 2
-                    <br>อ่านต่อ <i class="fa fa-chevron-circle-right"></i>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="../html/news1.html"><img src="https://www.cs.kku.ac.th/images/news/2564/23_sumonta/ss.jpg" class="img-fluid mb-1" alt="next_news" id="othernews"></a>
-                <a href="../html/news1.html" id="content">ผศ.ดร.สุมณฑา เกษมวิลาศ ได้รับเชิญจากโรงพยาบาลพระศรีมหาโพธิ์ จ.อุบลราชธานี เป็นวิทยากรบรรยายในหัวข้อ “สุขภาพวิถีใหม่ในยุคดิจิทัล”
-                    <br>อ่านต่อ <i class="fa fa-chevron-circle-right"></i>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="../html/news1.html"><img src="https://www.cs.kku.ac.th/images/news/2564/20_sumonta/ss.jpg" class="img-fluid mb-1" alt="next_news" id="othernews"></a>
-                <a href="../html/news1.html" id="content">นศ. ชั้นปีที่ 4 เข้ารอบชิงชนะเลิศกิจกรรมการแข่งขันระดับชาติ เพื่อนําเสนอนวัตกรรมในการยกระดับขีดความสามารถ ทางการท่องเที่ยวอย่างมีส่วนร่วมตามฐานวิถีชีวิตใหม่
-                    <br>อ่านต่อ <i class="fa fa-chevron-circle-right"></i>
-                </a>
-            </div>
+          <div class="col-md-4">
+            <a href="../html/news1.html"> <img src="https://www.cs.kku.ac.th/images/news/2564/24_sumonta/ss.jpg"
+                class="img-fluid mb-1" alt="next_news"></a>
+            <a href="../html/news1.html" class="content">ผศ. ดร.สุมณฑา เกษมวิลาศ ได้รับเชิญจากโรงพยาบาลพระศรีมหาโพธิ์
+              เป็นวิทยากรในงานประชุมเชิงปฏิบัติการเพื่อพัฒนาต้นแบบแอปพลิเคชันการบำบัดด้วยการกระตุ้นพฤติกรรมสำหรับผู้มีภาวะซึมเศร้า
+              ครั้งที่ 2
+              <br>อ่านต่อ <i class="fa fa-chevron-circle-right"></i>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="../html/news1.html"><img src="https://www.cs.kku.ac.th/images/news/2564/23_sumonta/ss.jpg"
+                class="img-fluid mb-1" alt="next_news"></a>
+            <a href="../html/news1.html" class="content">ผศ.ดร.สุมณฑา เกษมวิลาศ ได้รับเชิญจากโรงพยาบาลพระศรีมหาโพธิ์
+              จ.อุบลราชธานี เป็นวิทยากรบรรยายในหัวข้อ “สุขภาพวิถีใหม่ในยุคดิจิทัล”
+              <br>อ่านต่อ <i class="fa fa-chevron-circle-right"></i>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="../html/news1.html"><img src="https://www.cs.kku.ac.th/images/news/2564/20_sumonta/ss.jpg"
+                class="img-fluid mb-1" alt="next_news"></a>
+            <a href="../html/news1.html" class="content">นศ. ชั้นปีที่ 4 เข้ารอบชิงชนะเลิศกิจกรรมการแข่งขันระดับชาติ
+              เพื่อนําเสนอนวัตกรรมในการยกระดับขีดความสามารถ ทางการท่องเที่ยวอย่างมีส่วนร่วมตามฐานวิถีชีวิตใหม่
+              <br>อ่านต่อ <i class="fa fa-chevron-circle-right"></i>
+            </a>
+          </div>
         </div>
-    </div>
+        <a class="button" href="../html/news_feature_1.html">
+          <h4 class="text-end">ข่าวทั้งหมด<i class="fa fa-chevron-circle-right"></i></h4>
+        </a>
 
-  </section>
+      </div>
+
+    </section>
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col ">
+          <iframe class="facebook"
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcomputing.kku&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+             style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+        
+      </div>
+    </div>
     <footer id="footer" class="text-center text-lg-start bg-dark text-white">
       <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <h2 class="d-none">for validator</h2>
         <div class="me-5 d-none d-lg-block">
           <span>Get connected with us on social networks:</span>
         </div>
@@ -340,7 +415,7 @@
               </p>
             </div>
             <!-- Grid column -->
-            
+
             <!-- Grid column -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               <!-- Links -->
@@ -365,7 +440,7 @@
                 <a href="../html/bachelor-s-degree.html" class="text-reset">• ปริญญาตรี</a>
               </p>
               <p>
-                <a href="../html/master-degree.html"class="text-reset">• ปริญญาโท</a>
+                <a href="../html/master-degree.html" class="text-reset">• ปริญญาโท</a>
               </p>
               <p>
                 <a href="../html/master-degree.html" class="text-reset">• ปริญญาเอก</a>
@@ -389,7 +464,7 @@
               <p>
                 <a href="../html/inovation.html" class="text-reset">• ผลงานนักศึกษา</a>
               </p>
-             
+
               <p>
                 <a href="https://www.kku.ac.th/" target="_blank" class="text-reset">• มหาวิทยาลัยขอนแก่น</a>
               </p>
@@ -414,7 +489,8 @@
       <!-- Copyright -->
       <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://www.facebook.com/groups/2552784411534457/">SC312302 Web Design Technology</a>
+        <a class="text-reset fw-bold" href="https://www.facebook.com/groups/2552784411534457/">SC312302 Web Design
+          Technology</a>
       </div>
       <!-- Copyright -->
 

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="232" height="232" viewBox="0 0 232 232">
+  <defs>
+    <clipPath id="clip-student">
+      <rect width="232" height="232"/>
+    </clipPath>
+  </defs>
+  <g id="student" clip-path="url(#clip-student)">
+    <rect width="232" height="232" fill="#e2e2e2"/>
+    <text id="การรับเข้าศึกษา" transform="translate(63 178)" fill="#707070" font-size="20" font-family="FCSubjectCondensedNoncml-Reg, 'FC Subject \[Non-cml\.\]'"><tspan x="0" y="0">การรับเข้าศึกษา</tspan></text>
+    <path id="Icon_awesome-user-alt" data-name="Icon awesome-user-alt" d="M38,42.75A21.375,21.375,0,1,0,16.625,21.375,21.381,21.381,0,0,0,38,42.75ZM57,47.5H48.821a25.839,25.839,0,0,1-21.642,0H19a19,19,0,0,0-19,19v2.375A7.127,7.127,0,0,0,7.125,76h61.75A7.127,7.127,0,0,0,76,68.875V66.5A19,19,0,0,0,57,47.5Z" transform="translate(78 54)" opacity="0.52"/>
+  </g>
+</svg>

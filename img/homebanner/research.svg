@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="232" height="232" viewBox="0 0 232 232">
+  <defs>
+    <clipPath id="clip-research">
+      <rect width="232" height="232"/>
+    </clipPath>
+  </defs>
+  <g id="research" clip-path="url(#clip-research)">
+    <rect width="232" height="232" fill="#e2e2e2"/>
+    <text id="วิจัยและนวัตกรรม" transform="translate(55 178)" fill="#707070" font-size="20" font-family="FCSubjectCondensedNoncml-Reg, 'FC Subject \[Non-cml\.\]'"><tspan x="0" y="0">วิจัยและนวัตกรรม</tspan></text>
+    <g id="Icon_ionic-ios-book" data-name="Icon ionic-ios-book" transform="translate(68.757 46)" opacity="0.51">
+      <path id="Path_5" data-name="Path 5" d="M24.036,4.507c11.413,0,21.1,5.886,21.1,17.3v3.376h0V85.076a.415.415,0,0,1-.8.148V85.2c-2.173-7.215-8.059-14.262-17.363-14.873-7.215-.464-14.114,2.722-19.641,7.827a2.274,2.274,0,0,1-1.392.612H4.985c-.781,0-1.6-.57-1.6-1.287V16.342C3.361,9.57,12.623,4.507,24.036,4.507Z" transform="translate(0 0.014)"/>
+      <path id="Path_6" data-name="Path 6" d="M39.8,4.5c-11.413,0-21.1,5.886-21.1,17.3v3.376h0V85.069a.415.415,0,0,0,.8.148V85.2c2.173-7.215,8.312-14.325,17.363-14.873,6.941-.422,13.481,2.321,19.641,7.827a2.4,2.4,0,0,0,1.392.612h.949c.781,0,1.6-.57,1.6-1.287V16.314C60.475,9.563,51.213,4.5,39.8,4.5Z" transform="translate(30.649 0)"/>
+    </g>
+  </g>
+</svg>
