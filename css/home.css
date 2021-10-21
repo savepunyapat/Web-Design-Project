@@ -11,6 +11,17 @@
 body {
     font-family: 'Prompt', sans-serif;
 }
+.counter {
+    background-color: rgb(1,17,37);
+    color: white;
+    padding-top: 2rem;
+    border-radius: 0px 0px 20px 20px;
+}
+.counter p {
+    color: white;
+    font-size: 2vh;
+    text-transform: uppercase;
+}
 .box {
     position: relative;
     justify-content: center;
@@ -74,7 +85,6 @@ footer{
     background: rgb(1,17,37);
     background: linear-gradient(121deg, rgba(1,17,37,1) 31%, rgba(32,41,66,1) 100%);
 }
-
 .newsbox {
     margin-top: 2.5vh;
 }
