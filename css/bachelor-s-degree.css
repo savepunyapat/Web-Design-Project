@@ -9,6 +9,11 @@
     font-size: 2vh;
     font-weight: bold;
 }
+.container {
+    
+        font-family: 'Sarabun', sans-serif;
+    
+}
 footer{
     background: rgb(1,17,37);
     background: linear-gradient(121deg, rgba(1,17,37,1) 31%, rgba(32,41,66,1) 100%);
