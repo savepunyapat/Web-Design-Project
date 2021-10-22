@@ -102,7 +102,12 @@ a.content {
 iframe.facebook{
     width: 100%;
     height: auto;
-    
+    border: none;
+    overflow:hidden;
+}
+iframe.iyoutube{
+    border: none;
+    overflow:hidden;
 }
 #gallary_menu a img{
     transition: 500ms;
