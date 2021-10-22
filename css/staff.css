@@ -16,10 +16,15 @@ h2{
 .card:hover {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
 }
-#card-text{
+.card-text{
     font-family: 'Sarabun', sans-serif;
     color: rgb(26, 26, 26);
 
+}
+
+.card-title{
+  font-family: 'Sarabun', sans-serif;
+  color: rgb(26, 26, 26);
 }
 
 footer{

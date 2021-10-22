@@ -102,6 +102,7 @@ a.content {
 iframe.facebook{
     width: 100%;
     height: auto;
+    
 }
 #gallary_menu a img{
     transition: 500ms;

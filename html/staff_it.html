@@ -20,6 +20,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css1/bootstrap.min.css">
     <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/fadein.css">
     <title>คณาจารย์ประจำหลักสูตร สาขาวิชาเทคโนโลยีสารสนเทศ</title>
     <link rel="icon" href="../logo-old/newlogo.svg">
 </head>
@@ -33,164 +34,180 @@
     <script src="../js/bootstrap.min.js"></script>
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand img-fluid" href="../html/index.html"><img src="../logo-old/logo_pmg.png" alt="" id="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="main_nav">
-            <ul class="navbar-nav">
-              <li class="nav-item "><a class="nav-link text-white" href="../html/index.html">หน้าหลัก</a></li>
-              <li class="nav-item dropdown" id="myDropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">เกี่ยวกับ</a>
-                <ul class="dropdown-menu">
-                  
-                  <li> <a class="dropdown-item" href="../html/history.html">ประวัติ</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li> <a class="dropdown-item" href="../html/vision.html">วิสัยทัศน์</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="../html/organize.html">โครงสร้างองค์กร</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="../html/logo.html">ตราสัญลักษณ์</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item not-hide" href="#">บุคลากร&raquo; </a>
-                    <ul class="submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="../html/organize.html">ผู้บริหารและกรรมการ</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา <br>ภูมิสารสนเทศศาสตร์</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider hide">
-                  </li>
-                  <li><a class="dropdown-item hide" href="../html/organize.html">ผู้บริหารและกรรมการ</a></li>
-                  <li>
-                    <hr class="dropdown-divider hide">
-                  </li>
-                  <li><a class="dropdown-item hide" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
-                  <li>
-                    <hr class="dropdown-divider hide">
-                  </li>
-                  <li><a class="dropdown-item hide" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
-                  <li>
-                    <hr class="dropdown-divider hide">
-                  </li>
-                  <li><a class="dropdown-item hide" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา <br>ภูมิสารสนเทศศาสตร์</a></li>
-                  <li>
-                    <hr class="dropdown-divider hide">
-                  </li>
-                  <li><a class="dropdown-item hide" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
+            <a class="navbar-brand img-fluid" href="../html/index.html"><img src="../logo-old/logo_pmg.png" alt=""
+                    id="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="../html/index.html">หน้าหลัก</a></li>
+                    <li class="nav-item dropdown" id="myDropdown1">
+                        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">เกี่ยวกับ</a>
+                        <ul class="dropdown-menu">
+
+                            <li> <a class="dropdown-item" href="../html/history.html">ประวัติ</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li> <a class="dropdown-item" href="../html/vision.html">วิสัยทัศน์</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="../html/organize.html">โครงสร้างองค์กร</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="../html/logo.html">ตราสัญลักษณ์</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item not-hide" href="#">บุคลากร&raquo;
+                                </a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="../html/organize.html">ผู้บริหารและกรรมการ</a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br>
+                                            สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br>
+                                            สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา
+                                            <br>ภูมิสารสนเทศศาสตร์</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider hide">
+                            </li>
+                            <li><a class="dropdown-item hide" href="../html/organize.html">ผู้บริหารและกรรมการ</a></li>
+                            <li>
+                                <hr class="dropdown-divider hide">
+                            </li>
+                            <li><a class="dropdown-item hide" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br>
+                                    สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
+                            <li>
+                                <hr class="dropdown-divider hide">
+                            </li>
+                            <li><a class="dropdown-item hide" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br>
+                                    สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
+                            <li>
+                                <hr class="dropdown-divider hide">
+                            </li>
+                            <li><a class="dropdown-item hide" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา
+                                    <br>ภูมิสารสนเทศศาสตร์</a></li>
+                            <li>
+                                <hr class="dropdown-divider hide">
+                            </li>
+                            <li><a class="dropdown-item hide" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown" id="myDropdown2">
+                        <a class="nav-link dropdown-toggle text-white" href="#"
+                            data-bs-toggle="dropdown">หลักสูตร/รับเข้าศึกษา</a>
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item not-hide" href="#"> หลักสูตร
+                                    &raquo; </a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="../html/bachelor-s-degree.html">หลักสูตรระดับปริญญาตรี</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item hide"
+                                    href="../html/bachelor-s-degree.html">หลักสูตรระดับปริญญาตรี</a></li>
+                            <li>
+                                <hr class="dropdown-divider hide">
+                            </li>
+                            <li><a class="dropdown-item hide"
+                                    href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
+                            <li>
+                                <hr class="dropdown-divider hide">
+                            </li>
+                            <li><a class="dropdown-item hide"
+                                    href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
+                            <li>
+                                <hr class="dropdown-divider hide">
+                            </li>
+                            <li><a class="dropdown-item" href="../html/scholarship.html">ทุนการศึกษา</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="../html/calendar.html">ปฏิทินการศึกษา</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" target="_blank"
+                                    href="https://reg.kku.ac.th/registrar/home.asp?avs=44484.7912268518">บริการการศึกษา</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown" id="myDropdown3">
+                        <a class="nav-link dropdown-toggle text-white" href="#"
+                            data-bs-toggle="dropdown">ระบบสารสนเทศ</a>
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับนักศึกษา</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับบุคลากร</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li> <a class="dropdown-item" href="../html/sitemap.html">แผนผังเว็บไซต์</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown" id="myDropdown4">
+                        <a class="nav-link dropdown-toggle text-white" href="#"
+                            data-bs-toggle="dropdown">วิจัยและนวัตกรรม</a>
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item" href="../html/research.html">ศูนย์วิจัยและกลุ่มวิจัย</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li> <a class="dropdown-item" href="../html/mou.html">MOU</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li> <a class="dropdown-item" href="../html/sitemap.html">ผลงานนักศึกษา</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link text-white" href="../html/contact.html">ติดต่อ</a></li>
+
+
                 </ul>
-              </li>
-              <li class="nav-item dropdown" id="myDropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">หลักสูตร/รับเข้าศึกษา</a>
-                <ul class="dropdown-menu">
-                  <li> <a class="dropdown-item not-hide" href="#"> หลักสูตร &raquo; </a>
-                    <ul class="submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="../html/bachelor-s-degree.html">หลักสูตรระดับปริญญาตรี</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item hide" href="../html/bachelor-s-degree.html">หลักสูตรระดับปริญญาตรี</a></li>
-                  <li>
-                    <hr class="dropdown-divider hide">
-                  </li>
-                  <li><a class="dropdown-item hide" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
-                  <li>
-                    <hr class="dropdown-divider hide">
-                  </li>
-                  <li><a class="dropdown-item hide" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
-                  <li>
-                    <hr class="dropdown-divider hide">
-                  </li>
-                  <li><a class="dropdown-item" href="../html/scholarship.html">ทุนการศึกษา</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="../html/calendar.html">ปฏิทินการศึกษา</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" target="_blank" href="https://reg.kku.ac.th/registrar/home.asp?avs=44484.7912268518">บริการการศึกษา</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown" id="myDropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">ระบบสารสนเทศ</a>
-                <ul class="dropdown-menu">
-                  <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับนักศึกษา</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับบุคลากร</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li> <a class="dropdown-item" href="../html/inovation.html">แผนผังเว็บไซต์</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown" id="myDropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">วิจัยและนวัตกรรม</a>
-                <ul class="dropdown-menu">
-                  <li> <a class="dropdown-item" href="../html/research.html">ศูนย์วิจัยและกลุ่มวิจัย</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li> <a class="dropdown-item" href="../html/mou.html">MOU</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li> <a class="dropdown-item" href="../html/inovation.html">ผลงานนักศึกษา</a></li>
-                </ul>
-              </li>
-              <li class="nav-item "><a class="nav-link text-white" href="../html/contact.html">ติดต่อ</a></li>
-              
-                                                     
-            </ul>
-            
-          </div>
-          
-    
-    
-    
-    
-    
+
+            </div>
+
         </div>
         <!-- navbar-collapse.// -->
-        </div>
+
         <!-- container-fluid.// -->
-      </nav>
+    </nav>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="../html/index.html">หน้าหลัก</a></li>
@@ -208,9 +225,9 @@
                 <a href="#popup_it_1" class="text-decoration-none">
                     <img class="card-img-top" src="../img/staff-it/aj-ngamnij.png" alt="aj-ngamnij">
                     <div class="card-body">
-                        <h5 id="card-text" class="card-title text-black">
+                        <h5   class="card-title text-black">
                             รศ.ดร.งามนิจ อาจอินทร์</h5>
-                        <p id="card-text" class="card-text">Ngamnij
+                        <p   class="card-text">Ngamnij
                             Arch-int, Ph.D.</p>
                     </div>
                     <div class="card-footer">
@@ -222,9 +239,9 @@
                 <a href="#popup_it_2" class="text-decoration-none">
                     <img class="card-img-top" src="../img/staff-it/aj-jackchai.png" alt="aj-jackchai">
                     <div class="card-body">
-                        <h5 id="card-text" class="card-title">
+                        <h5   class="card-title">
                             รศ.ดร.จักรชัย โสอินทร์ </h5>
-                        <p id="card-text" class="card-text">
+                        <p   class="card-text">
                             Chakchai So-In, Ph.D. </p>
                     </div>
                     <div class="card-footer">
@@ -236,10 +253,10 @@
                 <a href="#popup_it_3" class="text-decoration-none">
                     <img class="card-img-top" src="../img/staff-it/aj-somjit.png" alt="aj-somjit">
                     <div class="card-body">
-                        <h5 id="card-text" class="card-title">รศ.ดร.สมจิตร
+                        <h5   class="card-title">รศ.ดร.สมจิตร
                             อาจอินทร์
                         </h5>
-                        <p id="card-text" class="card-text">Somjit Arch-int,
+                        <p   class="card-text">Somjit Arch-int,
                             Ph.D.</p>
                     </div>
                     <div class="card-footer">
@@ -254,9 +271,9 @@
                 <a href="#popup_it_4" class="text-decoration-none">
                     <img class="card-img-top" src="../img/staff-it/aj-wararat.png" alt="aj-wararat.png">
                     <div class="card-body">
-                        <h5 id="card-text" class="card-title text-black">
+                        <h5   class="card-title text-black">
                             ผศ.ดร.วรารัตน์ สงฆ์แป้น</h5>
-                        <p id="card-text" class="card-text">Wararat Songpan,
+                        <p   class="card-text">Wararat Songpan,
                             Ph.D.</p>
                     </div>
                     <div class="card-footer">
@@ -269,9 +286,9 @@
                 <a href="#popup_it_5" class="text-decoration-none">
                     <img class="card-img-top" src="../img/staff-it/aj-paweena.png" alt="aj-paweena">
                     <div class="card-body">
-                        <h5 id="card-text" class="card-title">ผศ.ดร.ปวีณา
+                        <h5   class="card-title">ผศ.ดร.ปวีณา
                             วันชัย</h5>
-                        <p id="card-text" class="card-text">
+                        <p   class="card-text">
                             Paweena Wanchai, Ph.D.</p>
                     </div>
                     <div class="card-footer">
@@ -283,9 +300,9 @@
                 <a href="#popup_it_6" class="text-decoration-none">
                     <img class="card-img-top" src="../img/staff-it/aj-mullica.png" alt="aj-monlica">
                     <div class="card-body">
-                        <h5 id="card-text" class="card-title text-black">
+                        <h5   class="card-title text-black">
                             ผศ.ดร.มัลลิกา วัฒนะ</h5>
-                        <p id="card-text" class="card-text">
+                        <p   class="card-text">
                             Monlica Wattana, Ph.D.</p>
                     </div>
                     <div class="card-footer">
@@ -302,9 +319,9 @@
                 <a href="#popup_it_7" class="text-decoration-none">
                     <img class="card-img-top" src="../img/staff-it/aj-rapassit.png" alt="aj-rapassit">
                     <div class="card-body">
-                        <h5 id="card-text" class="card-title">
+                        <h5   class="card-title">
                             อ.ดร.รภัสสิทธิ์ ชินภัทรจีรัสถ์</h5>
-                        <p id="card-text" class="card-text">Rapassit Chinnapatjeeras, Ph.D.</p>
+                        <p   class="card-text">Rapassit Chinnapatjeeras, Ph.D.</p>
                     </div>
                     <div class="card-footer">
                         <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
@@ -317,9 +334,9 @@
                 <a href="#popup_it_8" class="text-decoration-none">
                     <img class="card-img-top" src="../img/staff-it/aj-sayyun.png" alt="aj-saiyan">
                     <div class="card-body">
-                        <h5 id="card-text" class="card-title">
+                        <h5   class="card-title">
                             ผศ.ดร.สายยัญ สายยศ</h5>
-                        <p id="card-text" class="card-text">Saiyan Saiyod,
+                        <p   class="card-text">Saiyan Saiyod,
                             Ph.D.</p>
                     </div>
                     <div class="card-footer">
@@ -331,9 +348,9 @@
                 <a href="#popup_it_9" class="text-decoration-none">
                     <img class="card-img-top" src="../img/staff-it/aj-sumonta.png" alt="aj-sumonta">
                     <div class="card-body">
-                        <h5 id="card-text" class="card-title">
+                        <h5   class="card-title">
                             ผศ.ดร. สุมณฑา เกษมวิลาศ</h5>
-                        <p id="card-text" class="card-text">
+                        <p   class="card-text">
 
                             Sumonta Kasemvilas, Ph.D.</p>
                     </div>
@@ -348,9 +365,9 @@
                 <a href="#popup_it_10" class="text-decoration-none">
                     <img class="card-img-top" src="../img/staff-it/aj-phet.png" alt="aj-phet">
                     <div class="card-body">
-                        <h5 id="card-text" class="card-title text-black">
+                        <h5   class="card-title text-black">
                             อ.ดร.เพชร อิ่มทองคำ</h5>
-                        <p id="card-text" class="card-text">Phet Imtongkhum,
+                        <p   class="card-text">Phet Imtongkhum,
                             Ph.D.</p>
                     </div>
                     <div class="card-footer">
@@ -402,8 +419,8 @@
                     </a>
                     <br><br>
 
-                    <a target="_blank" id="card-text" class="text-decoration-underline
-                                text-primary"
+                    <a target="_blank" class="text-decoration-underline
+                                text-primary card-text"
                         href="https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a><br>
                     -Mobile Computing <br>
 
@@ -439,8 +456,8 @@
                     Email : <a href="mailto:somjit@kku.ac.th">somjit@kku.ac.th</a>
                     <br><br>
 
-                    <a target="_blank" id="card-text" class="text-decoration-underline
-                                text-primary"
+                    <a target="_blank"  class="text-decoration-underline
+                                text-primary card-text"
                         href="https://scholar.google.co.th/citations?user=GsfOlmYAAAAJ&hl=th">ความเชี่ยวชาญและงานวิจัย:</a><br>
                     - Semantic Web <br>
 
@@ -642,6 +659,7 @@
     <footer class="text-center text-lg-start bg-dark text-white">
         <section class="d-flex justify-content-center justify-content-lg-between
           p-4 border-bottom">
+          <h2 class="d-none">for validator</h2>
             <div class="me-5 d-none d-lg-block">
                 <span>Get connected with us on social networks:</span>
             </div>

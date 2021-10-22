@@ -9,19 +9,15 @@ figure h6{
     font-size: 2rem;
 }
 
-ul.content{
-    list-style: none;
-    text-align: center;
-    
-}
 
-ul#itsys{
+
+ul.itsys{
     list-style: none;
     text-align: start;
     
 }
 
-ul#itsys li {
+ul.itsys li {
     display: block;
     padding-top: 0.2em;
 }
@@ -34,11 +30,11 @@ ul.content li{
 ul li a{
     text-decoration: none;
 }
-ul#formacc{
+ul.formacc{
     list-style: none;
     text-align: start;
 }
-ul#formacc li{
+ul.formacc li{
     display: block;
 
 }

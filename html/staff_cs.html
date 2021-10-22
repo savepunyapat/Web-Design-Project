@@ -1,259 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/staff.css">
-    
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous">
-    
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css1/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <title>คณาจารย์ประจำหลักสูตร สาขาวิชาวิทยาการคอมพิวเตอร์</title>
-    <link rel="icon" href="../logo-old/newlogo.svg">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/staff.css">
 
-  <body>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
-      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-      crossorigin="anonymous"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand img-fluid" href="../html/index.html"><img src="../logo-old/logo_pmg.png" alt="" id="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="main_nav">
-          <ul class="navbar-nav">
-            <li class="nav-item "><a class="nav-link text-white" href="../html/index.html">หน้าหลัก</a></li>
-            <li class="nav-item dropdown" id="myDropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">เกี่ยวกับ</a>
-              <ul class="dropdown-menu">
-                
-                <li> <a class="dropdown-item" href="../html/history.html">ประวัติ</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li> <a class="dropdown-item" href="../html/vision.html">วิสัยทัศน์</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="../html/organize.html">โครงสร้างองค์กร</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="../html/logo.html">ตราสัญลักษณ์</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item not-hide" href="#">บุคลากร&raquo; </a>
-                  <ul class="submenu dropdown-menu">
-                    <li><a class="dropdown-item" href="../html/organize.html">ผู้บริหารและกรรมการ</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา <br>ภูมิสารสนเทศศาสตร์</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <hr class="dropdown-divider hide">
-                </li>
-                <li><a class="dropdown-item hide" href="../html/organize.html">ผู้บริหารและกรรมการ</a></li>
-                <li>
-                  <hr class="dropdown-divider hide">
-                </li>
-                <li><a class="dropdown-item hide" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
-                <li>
-                  <hr class="dropdown-divider hide">
-                </li>
-                <li><a class="dropdown-item hide" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br> สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
-                <li>
-                  <hr class="dropdown-divider hide">
-                </li>
-                <li><a class="dropdown-item hide" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา <br>ภูมิสารสนเทศศาสตร์</a></li>
-                <li>
-                  <hr class="dropdown-divider hide">
-                </li>
-                <li><a class="dropdown-item hide" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown" id="myDropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">หลักสูตร/รับเข้าศึกษา</a>
-              <ul class="dropdown-menu">
-                <li> <a class="dropdown-item not-hide" href="#"> หลักสูตร &raquo; </a>
-                  <ul class="submenu dropdown-menu">
-                    <li><a class="dropdown-item" href="../html/bachelor-s-degree.html">หลักสูตรระดับปริญญาตรี</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item hide" href="../html/bachelor-s-degree.html">หลักสูตรระดับปริญญาตรี</a></li>
-                <li>
-                  <hr class="dropdown-divider hide">
-                </li>
-                <li><a class="dropdown-item hide" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
-                <li>
-                  <hr class="dropdown-divider hide">
-                </li>
-                <li><a class="dropdown-item hide" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
-                <li>
-                  <hr class="dropdown-divider hide">
-                </li>
-                <li><a class="dropdown-item" href="../html/scholarship.html">ทุนการศึกษา</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="../html/calendar.html">ปฏิทินการศึกษา</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" target="_blank" href="https://reg.kku.ac.th/registrar/home.asp?avs=44484.7912268518">บริการการศึกษา</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown" id="myDropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">ระบบสารสนเทศ</a>
-              <ul class="dropdown-menu">
-                <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับนักศึกษา</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับบุคลากร</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li> <a class="dropdown-item" href="../html/inovation.html">แผนผังเว็บไซต์</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown" id="myDropdown">
-              <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">วิจัยและนวัตกรรม</a>
-              <ul class="dropdown-menu">
-                <li> <a class="dropdown-item" href="../html/research.html">ศูนย์วิจัยและกลุ่มวิจัย</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li> <a class="dropdown-item" href="../html/mou.html">MOU</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li> <a class="dropdown-item" href="../html/inovation.html">ผลงานนักศึกษา</a></li>
-              </ul>
-            </li>
-            <li class="nav-item "><a class="nav-link text-white" href="../html/contact.html">ติดต่อ</a></li>
-            
-                                                   
-          </ul>
-          
-        </div>
-        
-  
-  
-  
-  
-  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css1/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/fadein.css">
+  <title>คณาจารย์ประจำหลักสูตร สาขาวิชาวิทยาการคอมพิวเตอร์</title>
+  <link rel="icon" href="../logo-old/newlogo.svg">
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand img-fluid" href="../html/index.html"><img src="../logo-old/logo_pmg.png" alt=""
+          id="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main_nav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link text-white" href="../html/index.html">หน้าหลัก</a></li>
+          <li class="nav-item dropdown" id="myDropdown1">
+            <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">เกี่ยวกับ</a>
+            <ul class="dropdown-menu">
+
+              <li> <a class="dropdown-item" href="../html/history.html">ประวัติ</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="../html/vision.html">วิสัยทัศน์</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="../html/organize.html">โครงสร้างองค์กร</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="../html/logo.html">ตราสัญลักษณ์</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item not-hide" href="#">บุคลากร&raquo;
+                </a>
+                <ul class="submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="../html/organize.html">ผู้บริหารและกรรมการ</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br>
+                      สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br>
+                      สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา
+                      <br>ภูมิสารสนเทศศาสตร์</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
+                </ul>
+              </li>
+              <li>
+                <hr class="dropdown-divider hide">
+              </li>
+              <li><a class="dropdown-item hide" href="../html/organize.html">ผู้บริหารและกรรมการ</a></li>
+              <li>
+                <hr class="dropdown-divider hide">
+              </li>
+              <li><a class="dropdown-item hide" href="../html/staff_cs.html">คณาจารย์ประจำสาขาวิชา<br>
+                  สาขาวิชาวิทยาการคอมพิวเตอร์</a></li>
+              <li>
+                <hr class="dropdown-divider hide">
+              </li>
+              <li><a class="dropdown-item hide" href="../html/staff_it.html">คณาจารย์ประจำสาขาวิชา<br>
+                  สาขาวิชาเทคโนโลยีสารสนเทศ</a></li>
+              <li>
+                <hr class="dropdown-divider hide">
+              </li>
+              <li><a class="dropdown-item hide" href="../html/staff_gis.html">คณาจารย์ประจำสาขาวิชา
+                  <br>ภูมิสารสนเทศศาสตร์</a></li>
+              <li>
+                <hr class="dropdown-divider hide">
+              </li>
+              <li><a class="dropdown-item hide" href="../html/staff_cs.html">เจ้าหน้าที่</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" id="myDropdown2">
+            <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">หลักสูตร/รับเข้าศึกษา</a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item not-hide" href="#"> หลักสูตร
+                  &raquo; </a>
+                <ul class="submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="../html/bachelor-s-degree.html">หลักสูตรระดับปริญญาตรี</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
+                </ul>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item hide" href="../html/bachelor-s-degree.html">หลักสูตรระดับปริญญาตรี</a></li>
+              <li>
+                <hr class="dropdown-divider hide">
+              </li>
+              <li><a class="dropdown-item hide" href="../html/master-degree.html">หลักสูตรระดับปริญญาโท</a></li>
+              <li>
+                <hr class="dropdown-divider hide">
+              </li>
+              <li><a class="dropdown-item hide" href="../html/doctor-degree.html">หลักสูตรระดับปริญญาเอก</a></li>
+              <li>
+                <hr class="dropdown-divider hide">
+              </li>
+              <li><a class="dropdown-item" href="../html/scholarship.html">ทุนการศึกษา</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="../html/calendar.html">ปฏิทินการศึกษา</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" target="_blank"
+                  href="https://reg.kku.ac.th/registrar/home.asp?avs=44484.7912268518">บริการการศึกษา</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" id="myDropdown3">
+            <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">ระบบสารสนเทศ</a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับนักศึกษา</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="../html/student-menu.html">สำหรับบุคลากร</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="../html/sitemap.html">แผนผังเว็บไซต์</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown" id="myDropdown4">
+            <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">วิจัยและนวัตกรรม</a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" href="../html/research.html">ศูนย์วิจัยและกลุ่มวิจัย</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="../html/mou.html">MOU</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li> <a class="dropdown-item" href="../html/sitemap.html">ผลงานนักศึกษา</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link text-white" href="../html/contact.html">ติดต่อ</a></li>
+
+
+        </ul>
+
       </div>
-      <!-- navbar-collapse.// -->
-      </div>
-      <!-- container-fluid.// -->
-    </nav>
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="../html/index.html">หน้าหลัก</a></li>
-          <li class="breadcrumb-item active">เกี่ยวกับ</li>
-          <li class="breadcrumb-item active">บุคลากร</li>
-          <li class="breadcrumb-item active" aria-current="page">คณาจารย์ประจำหลักสูตร สาขาวิชาวิทยาการคอมพิวเตอร์</li>
-      </ol>
+
+    </div>
+    <!-- navbar-collapse.// -->
+
+    <!-- container-fluid.// -->
   </nav>
-    <div class="container mt-3">
-      <h2 class="text-center">คณาจารย์ประจำหลักสูตร สาขาวิชาวิทยาการคอมพิวเตอร์</h2>
-      <div class="card-deck" id="contact1">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="../html/index.html">หน้าหลัก</a></li>
+      <li class="breadcrumb-item active">เกี่ยวกับ</li>
+      <li class="breadcrumb-item active">บุคลากร</li>
+      <li class="breadcrumb-item active" aria-current="page">คณาจารย์ประจำหลักสูตร
+        สาขาวิชาวิทยาการคอมพิวเตอร์</li>
+    </ol>
+  </nav>
+  <div class="container mt-3">
+    <h2 class="text-center">คณาจารย์ประจำหลักสูตร สาขาวิชาวิทยาการคอมพิวเตอร์</h2>
+    <div class="card-deck" id="contact1">
 
-        <div class="card">
-          <a href="#popup_cs_1" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-satra.png"
-              alt="aj-satra">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title text-black">
-                รศ.ดร.ศาสตรา วงศ์ธนวสุ</h5>
-              <p id="card-text" class="card-text">Sartra Wongthanavasu, Ph.D.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#popup_cs_2" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-sirapat.png"
-              alt="aj-sirapat">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title">
-                รศ.ดร.สิรภัทร เชี่ยวชาญวัฒนา </h5>
-              <p id="card-text" class="card-text">Sirapat Chiewchanwattana,
-                Ph.D. </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#popup_cs_3" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-pudsadee.png"
-              alt="aj-pudsadee">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title">ผศ.ดร.พุธษดี ศิริแสงตระกูล
-              </h5>
-              <p id="card-text" class="card-text">Pusadee Seresangtakul, Ph.D.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
+      <div class="card">
+        <a href="#popup_cs_1" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-satra.png" alt="aj-satra">
+          <div class="card-body">
+            <h5 class="card-title text-black">
+              รศ.ดร.ศาสตรา วงศ์ธนวสุ</h5>
+            <p class="card-text">Sartra Wongthanavasu, Ph.D.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#popup_cs_2" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-sirapat.png" alt="aj-sirapat">
+          <div class="card-body">
+            <h5 class="card-title">
+              รศ.ดร.สิรภัทร เชี่ยวชาญวัฒนา </h5>
+            <p class="card-text">Sirapat Chiewchanwattana,
+              Ph.D. </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#popup_cs_3" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-pudsadee.png" alt="aj-pudsadee">
+          <div class="card-body">
+            <h5 class="card-title">ผศ.ดร.พุธษดี ศิริแสงตระกูล
+            </h5>
+            <p class="card-text">Pusadee Seresangtakul, Ph.D.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
+      </div>
 
-        <!--
+      <!--
               card-deckต่างจากcard-groupหรือตัวอื่นๆเนื่องจากเพราะ cardแต่ละใบในcard-deck
               จะไม่ติดกัน
               .card-bodyเป็นการกำหนดกล่องเพื่อแสดงสิ่งต่างๆของcard
@@ -262,640 +256,585 @@
               .card-footerเป็นช่องfooterของcard
               .text-mutedก็จะเป็นเหมือนการกำหนดสีของtextไปในตัวเลย
             -->
+    </div>
+    <div class="card-deck mt-3" id="contact2">
+
+      <div class="card">
+        <a href="#popup_cs_4" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-panyapon.png" alt="aj-panyapon">
+          <div class="card-body">
+            <h5 class="card-title text-black">
+              รศ.ดร.ปัญญาพล หอระตะ </h5>
+            <p class="card-text">Punyapol Horata, Ph.D.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
       </div>
-      <div class="card-deck mt-3" id="contact2">
-
-        <div class="card">
-          <a href="#popup_cs_4" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-panyapon.png"
-              alt="aj-panyapon">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title text-black">
-                รศ.ดร.ปัญญาพล หอระตะ </h5>
-              <p id="card-text" class="card-text">Punyapol Horata, Ph.D.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#popup_cs_5" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-santi.png"
-              alt="aj-santi">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title">
-                ผศ.สันติ ทินตะนัย </h5>
-              <p id="card-text" class="card-text">Mr.Sunti Tintanai</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#popup_cs_6" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-khamron.png"
-              alt="aj-khamron">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title">ผศ.ดร.คำรณ สุนัติ </h5>
-              <p id="card-text" class="card-text">
-                Khamron Sunat, Ph.D.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
+      <div class="card">
+        <a href="#popup_cs_5" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-santi.png" alt="aj-santi">
+          <div class="card-body">
+            <h5 class="card-title">
+              ผศ.สันติ ทินตะนัย </h5>
+            <p class="card-text">Mr.Sunti Tintanai</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
       </div>
-      <div class="card-deck mt-3" id="contact3">
-
-        <div class="card">
-          <a href="#popup_cs_7" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-urachat.png"
-              alt="aj-urachat">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title text-black">
-                ผศ.ดร.อุรฉัตร โคแก้ว</h5>
-              <p id="card-text" class="card-text">
-                Urachart Kokaew, Ph.D.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#popup_cs_8" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-sirada.png"
-              alt="aj-sirada">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title">
-                ผศ.ดร.สิลดา อินทรโสธรฉันท์ </h5>
-              <p id="card-text" class="card-text">Silada Intarasothonchun, Ph.D.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#popup_cs_9" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-bunsub.png"
-              alt="aj-Boonsup">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title">
-                ผศ.บุญทรัพย์ ไวคำ</h5>
-              <p id="card-text" class="card-text">
-
-                Mr.Boonsup Waikham</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="card-deck mt-3" id="contact4">
-
-        <div class="card">
-          <a href="#popup_cs_10" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-chitsuda.png"
-              alt="aj-Chitsutha">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title text-black">
-                ผศ.ดร. ชิตสุธา สุ่มเล็ก</h5>
-              <p id="card-text" class="card-text">Chitsutha Soomlek, Ph.D.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#popup_cs_11" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-wachirawut.png"
-              alt="aj-Wachirawut">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title">
-                อ.ดร.วชิราวุธ ธรรมวิเศษ </h5>
-              <p id="card-text" class="card-text">Wachirawut Tamviset, Ph.D.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#popup_cs_12" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-waranya.png"
-              alt="aj-waranya">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title">
-                อ.ดร. วรัญญา วรรณศรี </h5>
-              <p id="card-text" class="card-text">
-                Warunya Wunnasri, Ph.D.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-      </div>
-      <div class="card-deck mt-3 mb-3" id="contact">
-
-        <div class="card">
-          <a href="#popup_cs_13" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-thanapol.png"
-              alt="aj-Thanaphon">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title text-black">
-                อ.ธนพล ตั้งชูพงศ์</h5>
-              <p id="card-text" class="card-text">
-                Mr. Thanaphon Tangchoopong</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#popup_cs_14" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-chanon.png"
-              alt="aj-chanon">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title">
-                อ.ชานนท์ เดชสุภา</h5>
-              <p id="card-text" class="card-text">Mr.Chanon Dechsupa</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
-        <div class="card">
-          <a href="#popup_cs_15" class="text-decoration-none">
-            <img class="card-img-top"
-              src="../img/staff-cs/aj-paisarn.png"
-              alt="aj-paisarn">
-            <div class="card-body">
-              <h5 id="card-text" class="card-title">
-                อ.ดร. ไพรสันต์ ผดุงเวียง</h5>
-              <p id="card-text" class="card-text">
-
-                Mr.Praisan Padungwieng</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
-            </div>
-          </a>
-        </div>
+      <div class="card">
+        <a href="#popup_cs_6" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-khamron.png" alt="aj-khamron">
+          <div class="card-body">
+            <h5 class="card-title">ผศ.ดร.คำรณ สุนัติ </h5>
+            <p class="card-text">
+              Khamron Sunat, Ph.D.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
       </div>
     </div>
+    <div class="card-deck mt-3" id="contact3">
 
-    <!-- Popup --->
+      <div class="card">
+        <a href="#popup_cs_7" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-urachat.png" alt="aj-urachat">
+          <div class="card-body">
+            <h5 class="card-title text-black">
+              ผศ.ดร.อุรฉัตร โคแก้ว</h5>
+            <p class="card-text">
+              Urachart Kokaew, Ph.D.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#popup_cs_8" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-sirada.png" alt="aj-sirada">
+          <div class="card-body">
+            <h5 class="card-title">
+              ผศ.ดร.สิลดา อินทรโสธรฉันท์ </h5>
+            <p class="card-text">Silada Intarasothonchun, Ph.D.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#popup_cs_9" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-bunsub.png" alt="aj-Boonsup">
+          <div class="card-body">
+            <h5 class="card-title">
+              ผศ.บุญทรัพย์ ไวคำ</h5>
+            <p class="card-text">
 
-    <div class="overlay" id="popup_cs_1">
-      <div class="popup">
-        <a class="close" href="#">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-satra.png"
-            alt="aj-satra">
-          <p>รศ.ดร.ศาสตรา วงศ์ธนวสุ <br><br>
-
-            ตำแหน่ง: รองศาสตราจารย์ <br><br>
-
-            Email : <a href="mailto:wongsar@kku.ac.th">wongsar@kku.ac.th </a>
-            <br><br>
-
-            ความเชี่ยวชาญและงานวิจัย: <br>
-
-            -Machine Learning <br>
-
-            -Big Data Analytics <br>
-
-            -Computer Vision <br>
-
-            -Cellular Automata <br>
-
-          </p>
-        </div>
+              Mr.Boonsup Waikham</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_2">
-      <div class="popup">
-        <a class="close" href="#">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-sirapat.png"
-            alt="aj-sirapat">
-          <p>รศ.ดร.สิรภัทร เชี่ยวชาญวัฒนา <br><br>
+    <div class="card-deck mt-3" id="contact4">
 
-            ตำแหน่ง: รองศาสตราจารย์ <br><br>
+      <div class="card">
+        <a href="#popup_cs_10" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-chitsuda.png" alt="aj-Chitsutha">
+          <div class="card-body">
+            <h5 class="card-title text-black">
+              ผศ.ดร. ชิตสุธา สุ่มเล็ก</h5>
+            <p class="card-text">Chitsutha Soomlek, Ph.D.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#popup_cs_11" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-wachirawut.png" alt="aj-Wachirawut">
+          <div class="card-body">
+            <h5 class="card-title">
+              อ.ดร.วชิราวุธ ธรรมวิเศษ </h5>
+            <p class="card-text">Wachirawut Tamviset, Ph.D.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#popup_cs_12" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-waranya.png" alt="aj-waranya">
+          <div class="card-body">
+            <h5 class="card-title">
+              อ.ดร. วรัญญา วรรณศรี </h5>
+            <p class="card-text">
+              Warunya Wunnasri, Ph.D.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="card-deck mt-3 mb-3" id="contact">
 
-            Email : <a href="mailto:sunkra@kku.ac.th">wongsar@kku.ac.th </a> ,
-            <a href="mailto:csirapat@gmail.com">csirapat@gmail.com</a>
-            <br><br>
+      <div class="card">
+        <a href="#popup_cs_13" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-thanapol.png" alt="aj-Thanaphon">
+          <div class="card-body">
+            <h5 class="card-title text-black">
+              อ.ธนพล ตั้งชูพงศ์</h5>
+            <p class="card-text">
+              Mr. Thanaphon Tangchoopong</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#popup_cs_14" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-chanon.png" alt="aj-chanon">
+          <div class="card-body">
+            <h5 class="card-title">
+              อ.ชานนท์ เดชสุภา</h5>
+            <p class="card-text">Mr.Chanon Dechsupa</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
+      </div>
+      <div class="card">
+        <a href="#popup_cs_15" class="text-decoration-none">
+          <img class="card-img-top" src="../img/staff-cs/aj-paisarn.png" alt="aj-paisarn">
+          <div class="card-body">
+            <h5 class="card-title">
+              อ.ดร. ไพรสันต์ ผดุงเวียง</h5>
+            <p class="card-text">
 
-            <a target="_blank" id="card-text" class="text-decoration-underline
+              Mr.Praisan Padungwieng</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">กดที่รูปเพื่ออ่านรายละเอียดเพิ่มเติม</small>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Popup -->
+
+  <div class="overlay" id="popup_cs_1">
+    <div class="popup">
+      <a class="close" href="#">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-satra.png" alt="aj-satra">
+        <p>รศ.ดร.ศาสตรา วงศ์ธนวสุ <br><br>
+
+          ตำแหน่ง: รองศาสตราจารย์ <br><br>
+
+          Email : <a href="mailto:wongsar@kku.ac.th">wongsar@kku.ac.th </a>
+          <br><br>
+
+          ความเชี่ยวชาญและงานวิจัย: <br>
+
+          -Machine Learning <br>
+
+          -Big Data Analytics <br>
+
+          -Computer Vision <br>
+
+          -Cellular Automata <br>
+
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="overlay" id="popup_cs_2">
+    <div class="popup">
+      <a class="close" href="#">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-sirapat.png" alt="aj-sirapat">
+        <p>รศ.ดร.สิรภัทร เชี่ยวชาญวัฒนา <br><br>
+
+          ตำแหน่ง: รองศาสตราจารย์ <br><br>
+
+          Email : <a href="mailto:sunkra@kku.ac.th">wongsar@kku.ac.th </a> ,
+          <a href="mailto:csirapat@gmail.com">csirapat@gmail.com</a>
+          <br><br>
+
+          <a target="_blank" class="card-text text-decoration-underline
               text-primary"
-              href="https://scholar.google.com/citations?user=TkbVWiMAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a><br>
-            -Computational Intelligence <br>
+            href="https://scholar.google.com/citations?user=TkbVWiMAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a><br>
+          -Computational Intelligence <br>
 
-            -Machine Learning and Intelligent Systems <br>
+          -Machine Learning and Intelligent Systems <br>
 
-            -Nature-Inspired Optimization Algorithm <br>
+          -Nature-Inspired Optimization Algorithm <br>
 
-            -Data science and Artificial Intelligence <br>
+          -Data science and Artificial Intelligence <br>
 
-            -Artificial Neural Network <br>
+          -Artificial Neural Network <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_3">
-      <div class="popup">
-        <a class="close" href="#">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-pudsadee.png"
-            alt="aj-pudsadee">
-          <p>ผศ.ดร.พุธษดี ศิริแสงตระกูล <br><br>
+  </div>
+  <div class="overlay" id="popup_cs_3">
+    <div class="popup">
+      <a class="close" href="#">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-pudsadee.png" alt="aj-pudsadee">
+        <p>ผศ.ดร.พุธษดี ศิริแสงตระกูล <br><br>
 
-            ตำแหน่ง: ผู้ช่วยศาสตราจารย์ <br><br>
+          ตำแหน่ง: ผู้ช่วยศาสตราจารย์ <br><br>
 
-            Email : <a href="mailto:pusadee@kku.ac.th">pusadee@kku.ac.th</a>
-            <br><br>
+          Email : <a href="mailto:pusadee@kku.ac.th">pusadee@kku.ac.th</a>
+          <br><br>
 
-            ความเชี่ยวชาญและงานวิจัย:<br>
+          ความเชี่ยวชาญและงานวิจัย:<br>
 
-            -Natural Language and Speech Processing <br>
+          -Natural Language and Speech Processing <br>
 
-            -Machine Learning and Intelligent Systems <br>
+          -Machine Learning and Intelligent Systems <br>
 
-            -Database and Information Integration Systems <br>
+          -Database and Information Integration Systems <br>
 
-            -Data science and Artificial Intelligence <br>
+          -Data science and Artificial Intelligence <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_4">
-      <div class="popup">
-        <a class="close" href="#contact1">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-panyapon.png"
-            alt="aj-panyapon">
-          <p>รศ.ดร.ปัญญาพล หอระตะ <br><br>
+  </div>
+  <div class="overlay" id="popup_cs_4">
+    <div class="popup">
+      <a class="close" href="#contact1">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-panyapon.png" alt="aj-panyapon">
+        <p>รศ.ดร.ปัญญาพล หอระตะ <br><br>
 
-            ตำแหน่ง: รองศาสตราจารย์ <br><br>
+          ตำแหน่ง: รองศาสตราจารย์ <br><br>
 
-            Email : <a href="mailto:punhor1@kku.ac.th">punhor1@kku.ac.th </a>
-            <br><br>
+          Email : <a href="mailto:punhor1@kku.ac.th">punhor1@kku.ac.th </a>
+          <br><br>
 
-            ความเชี่ยวชาญและงานวิจัย: <br>
+          ความเชี่ยวชาญและงานวิจัย: <br>
 
-            - Machine Learning <br>
+          - Machine Learning <br>
 
-            - Soft computing <br>
+          - Soft computing <br>
 
-            - Object-Oriented Programming Languages <br>
+          - Object-Oriented Programming Languages <br>
 
-            - Software Engineering <br>
+          - Software Engineering <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_5">
-      <div class="popup">
-        <a class="close" href="#contact1">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-santi.png"
-            alt="aj-santi">
-          <p>ผศ.สันติ ทินตะนัย<br><br>
+  </div>
+  <div class="overlay" id="popup_cs_5">
+    <div class="popup">
+      <a class="close" href="#contact1">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-santi.png" alt="aj-santi">
+        <p>ผศ.สันติ ทินตะนัย<br><br>
 
-            ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
+          ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
 
-            Email : <a href="mailto:sunti@kku.ac.th">sunti@kku.ac.th </a>
-            <br><br>
+          Email : <a href="mailto:sunti@kku.ac.th">sunti@kku.ac.th </a>
+          <br><br>
 
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_6">
-      <div class="popup">
-        <a class="close" href="#contact1">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-khamron.png"
-            alt="aj-khamron">
-          <p>ผศ.ดร.คำรณ สุนัติ<br><br>
+  </div>
+  <div class="overlay" id="popup_cs_6">
+    <div class="popup">
+      <a class="close" href="#contact1">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-khamron.png" alt="aj-khamron">
+        <p>ผศ.ดร.คำรณ สุนัติ<br><br>
 
-            ตำแหน่ง: ผู้ช่วยศาสตราจารย์ <br><br>
+          ตำแหน่ง: ผู้ช่วยศาสตราจารย์ <br><br>
 
-            Email : <a href="mailto:skhamron@kku.ac.th"> skhamron@kku.ac.th</a>
-            , <a href="mailto:khamron_sunat@yahoo.com">khamron_sunat@yahoo.com</a>
-            <br><br>
+          Email : <a href="mailto:skhamron@kku.ac.th"> skhamron@kku.ac.th</a>
+          , <a href="mailto:khamron_sunat@yahoo.com">khamron_sunat@yahoo.com</a>
+          <br><br>
 
-            <a target="_blank" id="card-text" class="text-decoration-underline
-              text-primary"
-              href="https://scholar.google.co.th/citations?user=eMdpRLEAAAAJ&hl=en">
-              ความเชี่ยวชาญและงานวิจัย:</a><br>
+          <a target="_blank" class="text-decoration-underline
+              text-primary card-text" href="https://scholar.google.co.th/citations?user=eMdpRLEAAAAJ&hl=en">
+            ความเชี่ยวชาญและงานวิจัย:</a><br>
 
-            -Computational Intelligence <br>
+          -Computational Intelligence <br>
 
-            -Machine Learning and Intelligent Systems <br>
+          -Machine Learning and Intelligent Systems <br>
 
-            -Nature-Inspired Optimization Algorithm <br>
+          -Nature-Inspired Optimization Algorithm <br>
 
-            -Data science and Artificial Intelligence <br>
+          -Data science and Artificial Intelligence <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_7">
-      <div class="popup">
-        <a class="close" href="#contact2">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-urachat.png"
-            alt="aj-urachat">
-          <p>ผศ.ดร.อุรฉัตร โคแก้ว<br><br>
+  </div>
+  <div class="overlay" id="popup_cs_7">
+    <div class="popup">
+      <a class="close" href="#contact2">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-urachat.png" alt="aj-urachat">
+        <p>ผศ.ดร.อุรฉัตร โคแก้ว<br><br>
 
-            ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
+          ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
 
-            Email : <a href="mailto:urachart@kku.ac.th">urachart@kku.ac.th</a>
-            <br><br>
-            <a target="_blank" id="card-text" class="text-decoration-underline
-              text-primary"
-              href="https://scholar.google.co.th/citations?user=1RIrvgkAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a><br>
-            - Ubiquitous Learning, Blended Learning <br>
+          Email : <a href="mailto:urachart@kku.ac.th">urachart@kku.ac.th</a>
+          <br><br>
+          <a target="_blank" class="text-decoration-underline
+              text-primary card-text"
+            href="https://scholar.google.co.th/citations?user=1RIrvgkAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a><br>
+          - Ubiquitous Learning, Blended Learning <br>
 
-            - Bioinformatics <br>
+          - Bioinformatics <br>
 
-            - User Experience Design <br>
+          - User Experience Design <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_8">
-      <div class="popup">
-        <a class="close" href="#contact2">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-sirada.png"
-            alt="aj-sirada">
-          <p>ผศ.ดร.สิลดา อินทรโสธรฉันท์ <br><br>
+  </div>
+  <div class="overlay" id="popup_cs_8">
+    <div class="popup">
+      <a class="close" href="#contact2">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-sirada.png" alt="aj-sirada">
+        <p>ผศ.ดร.สิลดา อินทรโสธรฉันท์ <br><br>
 
-            ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
+          ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
 
-            Email : <a href="mailto:silain@kku.ac.th">silain@kku.ac.th</a>
-            <br><br>
-            ความเชี่ยวชาญและงานวิจัย:<br>
-            -Mobile Computing <br>
+          Email : <a href="mailto:silain@kku.ac.th">silain@kku.ac.th</a>
+          <br><br>
+          ความเชี่ยวชาญและงานวิจัย:<br>
+          -Mobile Computing <br>
 
-            -Cloud computing <br>
+          -Cloud computing <br>
 
-            -Internet of Things and Smart Technology <br>
+          -Internet of Things and Smart Technology <br>
 
-            -Wireless Sensor Networks <br>
+          -Wireless Sensor Networks <br>
 
-            -Wireless and Cellular Networks <br>
+          -Wireless and Cellular Networks <br>
 
-            -Computer and Network Security <br>
+          -Computer and Network Security <br>
 
-            -Network, Protocol, Optimization, and Intelligent Systems <br>
+          -Network, Protocol, Optimization, and Intelligent Systems <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_9">
-      <div class="popup">
-        <a class="close" href="##contact2">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-bunsub.png"
-            alt="aj-bunsub">
-          <p>ผศ.บุญทรัพย์ ไวคำ <br><br>
+  </div>
+  <div class="overlay" id="popup_cs_9">
+    <div class="popup">
+      <a class="close" href="#contact2">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-bunsub.png" alt="aj-bunsub">
+        <p>ผศ.บุญทรัพย์ ไวคำ <br><br>
 
-            ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
+          ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
 
-            Email : <a href="mailto:boonsup@kku.ac.th">boonsup@kku.ac.th</a>
-            <br><br>
-            ความเชี่ยวชาญและงานวิจัย:<br>
-            - Routing Protocols and Internetworking <br>
+          Email : <a href="mailto:boonsup@kku.ac.th">boonsup@kku.ac.th</a>
+          <br><br>
+          ความเชี่ยวชาญและงานวิจัย:<br>
+          - Routing Protocols and Internetworking <br>
 
-            - Mobile Ad Hoc Networks <br>
+          - Mobile Ad Hoc Networks <br>
 
-            - Internet of Things and Smart Technologies <br>
+          - Internet of Things and Smart Technologies <br>
 
-            - Evolutionary Algorithms <br>
+          - Evolutionary Algorithms <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_10">
-      <div class="popup">
-        <a class="close" href="#contact3">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-chitsuda.png"
-            alt="aj-chitsuda">
-          <p>ผศ.ดร. ชิตสุธา สุ่มเล็ก<br><br>
+  </div>
+  <div class="overlay" id="popup_cs_10">
+    <div class="popup">
+      <a class="close" href="#contact3">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-chitsuda.png" alt="aj-chitsuda">
+        <p>ผศ.ดร. ชิตสุธา สุ่มเล็ก<br><br>
 
-            ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
+          ตำแหน่ง: ผู้ช่วยศาสตราจารย์<br><br>
 
-            Email : <a href="mailto:chitsutha@kku.ac.th">chitsutha@kku.ac.th</a>
-            <br><br>
-            <a target="_blank" id="card-text" class="text-decoration-underline
-              text-primary"
-              href="https://scholar.google.co.th/citations?user=ghQ1lTAAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a>
-            <br>
-            -Software Engineering <br>
+          Email : <a href="mailto:chitsutha@kku.ac.th">chitsutha@kku.ac.th</a>
+          <br><br>
+          <a target="_blank" class="text-decoration-underline
+              text-primary card-text"
+            href="https://scholar.google.co.th/citations?user=ghQ1lTAAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a>
+          <br>
+          -Software Engineering <br>
 
-            -Software Process <br>
+          -Software Process <br>
 
-            -Code Smells and Software Quality <br>
+          -Code Smells and Software Quality <br>
 
-            -Secure Software Engineering <br>
+          -Secure Software Engineering <br>
 
-            -Computer Network Security <br>
+          -Computer Network Security <br>
 
-            -Mobile Agent and Multi-Agent Systems <br>
+          -Mobile Agent and Multi-Agent Systems <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_11">
-      <div class="popup">
-        <a class="close" href="#contact3">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-wachirawut.png"
-            alt="aj-wachirawut">
-          <p>
-            อ.ดร.วชิราวุธ ธรรมวิเศษ<br><br>
+  </div>
+  <div class="overlay" id="popup_cs_11">
+    <div class="popup">
+      <a class="close" href="#contact3">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-wachirawut.png" alt="aj-wachirawut">
+        <p>
+          อ.ดร.วชิราวุธ ธรรมวิเศษ<br><br>
 
-            ตำแหน่ง: อาจารย์<br><br>
+          ตำแหน่ง: อาจารย์<br><br>
 
-            Email : <a href="mailto:twachi@kku.ac.th">twachi@kku.ac.th</a>
-            <br><br>
-            <a target="_blank" id="card-text" class="text-decoration-underline
-              text-primary"
-              href="https://scholar.google.co.th/citations?user=zmQuQoIAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a>
-            <br>
-            - Information Extraction and Integration <br>
+          Email : <a href="mailto:twachi@kku.ac.th">twachi@kku.ac.th</a>
+          <br><br>
+          <a target="_blank" class="text-decoration-underline
+              text-primary card-text"
+            href="https://scholar.google.co.th/citations?user=zmQuQoIAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a>
+          <br>
+          - Information Extraction and Integration <br>
 
-            - Internet and Web Information Systems <br>
+          - Internet and Web Information Systems <br>
 
-            - Object Oriented Programming <br>
+          - Object Oriented Programming <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_12">
-      <div class="popup">
-        <a class="close" href="#contact3">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-waranya.png"
-            alt="aj-waranya">
-          <p>
-            อ.ดร. วรัญญา วรรณศรี<br><br>
+  </div>
+  <div class="overlay" id="popup_cs_12">
+    <div class="popup">
+      <a class="close" href="#contact3">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-waranya.png" alt="aj-waranya">
+        <p>
+          อ.ดร. วรัญญา วรรณศรี<br><br>
 
-            ตำแหน่ง: อาจารย์<br><br>
+          ตำแหน่ง: อาจารย์<br><br>
 
-            Email : <a href="mailto:waruwu@kku.ac.th">waruwu@kku.ac.th</a>
-            <br><br>
-            <a target="_blank" id="card-text" class="text-decoration-underline
-              text-primary"
-              href="https://scholar.google.com/citations?user=_YT1Se0AAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a>
-            <br>
-            -Text Mining <br>
+          Email : <a href="mailto:waruwu@kku.ac.th">waruwu@kku.ac.th</a>
+          <br><br>
+          <a target="_blank" class="text-decoration-underline
+              text-primary card-text"
+            href="https://scholar.google.com/citations?user=_YT1Se0AAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a>
+          <br>
+          -Text Mining <br>
 
-            -Opinion Mining <br>
+          -Opinion Mining <br>
 
-            -Learning Engineering <br>
+          -Learning Engineering <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_13">
-      <div class="popup">
-        <a class="close" href="#contact4">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-thanapol.png"
-            alt="aj-thanapol">
-          <p>อ.ธนพล ตั้งชูพงศ์<br><br>
+  </div>
+  <div class="overlay" id="popup_cs_13">
+    <div class="popup">
+      <a class="close" href="#contact4">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-thanapol.png" alt="aj-thanapol">
+        <p>อ.ธนพล ตั้งชูพงศ์<br><br>
 
-            ตำแหน่ง: อาจารย์<br><br>
+          ตำแหน่ง: อาจารย์<br><br>
 
-            Email : <a href="mailto:thanaphon@kku.ac.th">thanaphon@kku.ac.th</a>
-            <br><br>
-            ความเชี่ยวชาญและงานวิจัย: <br>
-            -Temporal Causality Analysis <br>
+          Email : <a href="mailto:thanaphon@kku.ac.th">thanaphon@kku.ac.th</a>
+          <br><br>
+          ความเชี่ยวชาญและงานวิจัย: <br>
+          -Temporal Causality Analysis <br>
 
-            -Information Theory <br>
+          -Information Theory <br>
 
-            -Social Network Analysis <br>
+          -Social Network Analysis <br>
 
-            -Machine Learning <br>
+          -Machine Learning <br>
 
-            -Artificial Intelligence <br>
+          -Artificial Intelligence <br>
 
-            -Complex Adaptive System <br>
+          -Complex Adaptive System <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_14">
-      <div class="popup">
-        <a class="close" href="#contact4">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-chanon.png"
-            alt="aj-chanon">
-          <p>ชานนท์ เดชสุภา<br><br>
+  </div>
+  <div class="overlay" id="popup_cs_14">
+    <div class="popup">
+      <a class="close" href="#contact4">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-chanon.png" alt="aj-chanon">
+        <p>ชานนท์ เดชสุภา<br><br>
 
-            ตำแหน่ง: อาจารย์<br><br>
+          ตำแหน่ง: อาจารย์<br><br>
 
-            Email : <a href="mailto:chanode@kku.ac.th">chanode@kku.ac.th</a>
-            <br><br>
-            <a target="_blank" id="card-text" class="text-decoration-underline
-              text-primary"
-              href="https://scholar.google.com/citations?user=-ZwgaUsAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a>
-            <br>
-            - Formal Method <br>
+          Email : <a href="mailto:chanode@kku.ac.th">chanode@kku.ac.th</a>
+          <br><br>
+          <a target="_blank" class="text-decoration-underline
+              text-primary card-text"
+            href="https://scholar.google.com/citations?user=-ZwgaUsAAAAJ&hl=en">ความเชี่ยวชาญและงานวิจัย:</a>
+          <br>
+          - Formal Method <br>
 
-            - AI for Formal Verification <br>
+          - AI for Formal Verification <br>
 
-            - Software Engineering <br>
+          - Software Engineering <br>
 
-            - Database Programming <br>
+          - Database Programming <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <div class="overlay" id="popup_cs_15">
-      <div class="popup">
-        <a class="close" href="#contact4">&times;</a>
-        <div class="content text-center">
-          <img class="img-fluid mb-2"
-            src="../img/staff-cs/aj-paisarn.png"
-            alt="aj-paisarn">
-          <p>อ.ดร. ไพรสันต์ ผดุงเวียง<br><br>
+  </div>
+  <div class="overlay" id="popup_cs_15">
+    <div class="popup">
+      <a class="close" href="#contact4">&times;</a>
+      <div class="content text-center">
+        <img class="img-fluid mb-2" src="../img/staff-cs/aj-paisarn.png" alt="aj-paisarn">
+        <p>อ.ดร. ไพรสันต์ ผดุงเวียง<br><br>
 
-            ตำแหน่ง: อาจารย์<br><br>
+          ตำแหน่ง: อาจารย์<br><br>
 
-            Email : <a href="mailto:praipa@kku.ac.th">praipa@kku.ac.th</a>
-            <br><br>
-            ความเชี่ยวชาญและงานวิจัย: <br>
-            - Computer Vision <br>
+          Email : <a href="mailto:praipa@kku.ac.th">praipa@kku.ac.th</a>
+          <br><br>
+          ความเชี่ยวชาญและงานวิจัย: <br>
+          - Computer Vision <br>
 
-            - Deep Learning <br>
+          - Deep Learning <br>
 
-            - Machine learning <br>
+          - Machine learning <br>
 
-            - Artificial Intelligence <br>
+          - Artificial Intelligence <br>
 
-            - Data science <br>
+          - Data science <br>
 
-            - Big Data Analytics <br>
+          - Big Data Analytics <br>
 
-          </p>
-        </div>
+        </p>
       </div>
     </div>
-    <!-- <div class="container">
+  </div>
+  <!-- <div class="container">
       <div class="row text-center row align-items-center">
         <div class="col">
           <img src="../logo-old/logo_pmg.png" alt="">
@@ -908,138 +847,138 @@
         </div>
       </div>
     </div>-->
-    <!--Footer-->
-    <footer class="text-center text-lg-start bg-dark text-white">
-      <section class="d-flex justify-content-center justify-content-lg-between
+  <!--Footer-->
+  <footer class="text-center text-lg-start bg-dark text-white">
+    <section class="d-flex justify-content-center justify-content-lg-between
         p-4 border-bottom">
-        <div class="me-5 d-none d-lg-block">
-          <span>Get connected with us on social networks:</span>
-        </div>
-        <div>
-          <a href="https://www.facebook.com/comsci.kku/" target="_blank"
-            class="me-4 text-reset text-decoration-none">
-            <i class="fa fa-facebook-f"></i>
-          </a>
-          <a href="https://www.youtube.com/channel/UCJbH9xZZ9rNGfKahEebeFOA"
-            target="_blank" class="me-4 text-reset">
-            <i class="fa fa-youtube-play"></i>
-          </a>
-        </div>
+      <h2 class="d-none">for validator
+      </h2>
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <div>
+        <a href="https://www.facebook.com/comsci.kku/" target="_blank" class="me-4 text-reset text-decoration-none">
+          <i class="fa fa-facebook-f"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCJbH9xZZ9rNGfKahEebeFOA" target="_blank" class="me-4 text-reset">
+          <i class="fa fa-youtube-play"></i>
+        </a>
+      </div>
 
 
-      </section>
+    </section>
 
-      <!-- Section: Links  -->
-      <section class="">
-        <div class="container text-md-start mt-5">
-          <!-- Grid row -->
-          <div class="row mt-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <!-- Content -->
-              <img src="../logo-old/newlogo.svg" class="img-fluid w-50 mb-2
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <img src="../logo-old/newlogo.svg" class="img-fluid w-50 mb-2
                 ms-lg-4" alt="">
-              <h6 class="fw-bold mb-4">
-                <i class="fa fa-laptop"></i>&nbsp; วิทยาลัยการคอมพิวเตอร์
-                มหาวิทยาลัยขอนแก่น
-              </h6>
-              <a href="./contact.html"><h6 class="fw-bold text-white">ติดต่อเรา</h6></a>
-              <p>
-                <i class="fa fa-location-arrow"></i> 123 ถ.มิตรภาพ ต.ในเมือง
-                อ.เมือง จ.ขอนแก่น 40002 <br>
-                <i class="fa fa-phone"></i> 043-009700 ต่อ 44456, 44459, 44457
-                <br>
-                <i class="fa fa-phone"></i> สายด่วน 089-7102651, <br>
-                089-7102645 <br>
-              </p>
-            </div>
-            <!-- Grid column -->
+            <h6 class="fw-bold mb-4">
+              <i class="fa fa-laptop"></i>&nbsp; วิทยาลัยการคอมพิวเตอร์
+              มหาวิทยาลัยขอนแก่น
+            </h6>
+            <a href="./contact.html">
+              <h6 class="fw-bold text-white">ติดต่อเรา</h6>
+            </a>
+            <p>
+              <i class="fa fa-location-arrow"></i> 123 ถ.มิตรภาพ ต.ในเมือง
+              อ.เมือง จ.ขอนแก่น 40002 <br>
+              <i class="fa fa-phone"></i> 043-009700 ต่อ 44456, 44459, 44457
+              <br>
+              <i class="fa fa-phone"></i> สายด่วน 089-7102651, <br>
+              089-7102645 <br>
+            </p>
+          </div>
+          <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="fw-bold mb-4">
-                สำหรับนักศึกษา
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">• สาขาและหลักสูตร</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">• การรับเข้าศึกษา</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">• ระบบสารสนเทศ</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">• ดาวน์โหลดแบบฟอร์ม</a>
-              </p>
-            </div>
-            <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="fw-bold mb-4">
+              สำหรับนักศึกษา
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">• สาขาและหลักสูตร</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">• การรับเข้าศึกษา</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">• ระบบสารสนเทศ</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">• ดาวน์โหลดแบบฟอร์ม</a>
+            </p>
+          </div>
+          <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="fw-bold mb-4">
-                สำหรับบุคลากร
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">• ระบบสารสนเทศ</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">• ดาวน์โหลดแบบฟอร์ม</a>
-              </p>
-
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <!-- Links -->
-              <h6 class="fw-bold mb-4">
-                เมนูลัด
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">• งานวิจัย</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">• หอภาพ</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">• รางวัลเกียรติยศ</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">• มหาวิทยาลัยขอนแก่น</a>
-              </p>
-              <h6 class="fw-bold mb-2 mt-3">สื่อสังคมออนไลน์</h6>
-              <a href="https://www.facebook.com/comsci.kku/" target="_blank"
-                class="me-4 text-reset text-decoration-none">
-                <i class="fa fa-facebook-f"></i>
-              </a>
-              <a href="https://www.youtube.com/channel/UCJbH9xZZ9rNGfKahEebeFOA"
-                target="_blank" class="me-4 text-reset">
-                <i class="fa fa-youtube-play"></i>
-              </a>
-            </div>
-            <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="fw-bold mb-4">
+              สำหรับบุคลากร
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">• ระบบสารสนเทศ</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">• ดาวน์โหลดแบบฟอร์ม</a>
+            </p>
 
           </div>
-          <!-- Grid row -->
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="fw-bold mb-4">
+              เมนูลัด
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">• งานวิจัย</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">• หอภาพ</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">• รางวัลเกียรติยศ</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">• มหาวิทยาลัยขอนแก่น</a>
+            </p>
+            <h6 class="fw-bold mb-2 mt-3">สื่อสังคมออนไลน์</h6>
+            <a href="https://www.facebook.com/comsci.kku/" target="_blank" class="me-4 text-reset text-decoration-none">
+              <i class="fa fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCJbH9xZZ9rNGfKahEebeFOA" target="_blank" class="me-4 text-reset">
+              <i class="fa fa-youtube-play"></i>
+            </a>
+          </div>
+          <!-- Grid column -->
+
         </div>
-      </section>
-      <!-- Section: Links  -->
-
-      <!-- Copyright -->
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0,
-        0.05);">
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">pormueng</a>
+        <!-- Grid row -->
       </div>
-      <!-- Copyright -->
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0,
+        0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">pormueng</a>
+    </div>
+    <!-- Copyright -->
 
 
-    </footer>
+  </footer>
 
 
-  </body>
+</body>
 
 </html>
