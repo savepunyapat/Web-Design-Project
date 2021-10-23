@@ -2,32 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@100;200;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500&display=swap');
 * {
     font-family: 'Prompt', sans-serif;
     padding: 0;
     margin: 0;
 }
+
 body {
     font-family: 'Prompt', sans-serif;
 }
+
 .counter {
-    background-color: rgb(1,17,37);
+    background-color: rgb(1, 17, 37);
     color: white;
     padding-top: 2rem;
     border-radius: 0px 0px 20px 20px;
 }
+
 .counter p {
     color: white;
     font-size: 2vh;
     text-transform: uppercase;
 }
+
 .box {
     position: relative;
     justify-content: center;
     align-items: center;
     height: 866px;
 }
+
 .box::after {
     content: "";
     position: absolute;
@@ -35,26 +40,27 @@ body {
     left: 0px;
     right: 0px;
     top: 0px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url('https://www.img.in.th/images/9c4bc4473527677f342f39e992c7bd58.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('https://www.img.in.th/images/9c4bc4473527677f342f39e992c7bd58.jpg');
     background-size: cover;
-    background-position:top;
-  /*  display: block;*/
-    
+    background-position: top;
+    /*  display: block;*/
     width: 100%;
     height: 890px;
     z-index: -1;
 }
+
 #qoute {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 5px;
     margin: 30%;
     font-size: 10vh;
-   
-    font-weight:bolder;
+    font-weight: bolder;
 }
+
 #midbox {
     padding: 10%;
 }
+
 #midbox img {
     width: 100%;
     height: 35vh;
@@ -66,70 +72,98 @@ body {
     margin: 0;
     text-align: center;
 }
-.card-img-top{
-    object-fit:cover; /* Do not scale the image */
-    object-position:center; /* Center the image within the element */
+
+.card-img-top {
+    object-fit: cover;
+    /* Do not scale the image */
+    object-position: center;
+    /* Center the image within the element */
     width: 100%;
     height: 50vh;
 }
-.card a{
-    transition: all 0.5s ease ;
+
+.card a {
+    transition: all 0.5s ease;
 }
-.card a:hover{
+
+.card a:hover {
     opacity: 0.7;
 }
+
 #news {
     font-family: 'Sarabun', sans-serif;
 }
-footer{
-    background: rgb(1,17,37);
-    background: linear-gradient(121deg, rgba(1,17,37,1) 31%, rgba(32,41,66,1) 100%);
+
+footer {
+    background: rgb(1, 17, 37);
+    background: linear-gradient(121deg, rgba(1, 17, 37, 1) 31%, rgba(32, 41, 66, 1) 100%);
 }
+
 .carousel-item {
-    height:500px;
+    height: 500px;
 }
-.carousel-item img{
+
+.carousel-item img {
     width: 100%;
     height: 100% !important;
     object-fit: cover;
 }
+
+.csquare {
+    font-family: 'Kanit', sans-serif;
+}
+
+p.csquare {
+    color: rgb(0, 45, 100);
+    line-height: 1.3em;
+   
+}
+
+
 a.content {
     font-family: 'Sarabun', sans-serif;
 }
+
 .newsbox {
     margin-top: 2.5vh;
 }
-iframe.facebook{
+
+iframe.facebook {
     width: 100%;
     height: auto;
     border: none;
-    overflow:hidden;
+    overflow: hidden;
 }
-iframe.iyoutube{
+
+iframe.iyoutube {
     border: none;
-    overflow:hidden;
+    overflow: hidden;
 }
-#gallary_menu a img{
+
+#gallary_menu a img {
     transition: 500ms;
 }
-#gallary_menu a img:hover{
+
+#gallary_menu a img:hover {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
-@media screen and (max-width: 700px){
-    .carousel-item{
+img.othernews {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+img.othernews:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 700px) {
+    .carousel-item {
         height: 200px;
         object-fit: fill;
     }
-    iframe{
+    iframe {
         width: fit-content;
-        
     }
-
-        
-
-    
 }
-
-
-  
