@@ -9,13 +9,12 @@ h6{
 
 table{
     font-family: 'Sarabun', sans-serif;
-    
     border-radius: 10px;
     overflow: hidden;
     width: 100%;
 }
 td, th{
-    background: rgb(247, 247, 247);
+   
     text-align: start;
     padding: 8px;
     
@@ -23,6 +22,9 @@ td, th{
 }
 td{
     border-bottom: 0.3px solid rgba(65, 65, 65,0.1) ;
+}
+tr:nth-child(even){
+    background-color: rgb(201, 201, 201);
 }
 
 td:last-child{

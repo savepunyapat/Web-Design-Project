@@ -7,6 +7,7 @@ nav#navbar {
     margin: 0;
     padding: 0;
 }
+
 hr.dropdown-divider {
     list-style: none;
     text-decoration: none;
@@ -17,6 +18,7 @@ hr.dropdown-divider {
 .breadcrumb li a{
     font-family: 'Prompt', sans-serif;
 }
+
 
 @media all and (min-width: 992px) {
     .dropdown-menu li {
